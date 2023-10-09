@@ -1,0 +1,144 @@
+---
+import cursos from "../../JSON/cursos.json";
+---
+
+
+<swiper-container class="mySwiper" init="false">
+  {
+    cursos.map((info) => {
+      return (
+        <swiper-slide class="sss">
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <svg
+                  width="60"
+                  height="60"
+                  viewBox="0 0 60 60"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                >
+                  <rect width="60" height="60" fill="url(#pattern5)" />
+                  <defs>
+                    <pattern
+                      id="pattern5"
+                      patternContentUnits="objectBoundingBox"
+                      width="1"
+                      height="1"
+                    >
+                      <use
+                        xlink:href="#image0_60_874"
+                        transform="scale(0.01)"
+                      />
+                    </pattern>
+                    <image
+                      id="image0_60_874"
+                      width="100"
+                      height="100"
+                      xlink:href="data:image/png;base64,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"
+                    />
+                  </defs>
+                </svg>
+
+                <p class="title">{info.title}</p>
+              </div>
+              <div class="card-back">
+                <p class="title">{info.title}</p>
+                <p class="descripcion">{info.descripcion}</p>
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+      );
+    })
+  }
+</swiper-container>
+
+<script src="/src/JS/swiper_pagination.js"></script>
+
+<style>
+  swiper-container {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+  }
+
+  .ocultar {
+    opacity: 0;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+  }
+
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+  }
+
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #000000;
+    border: 1px solid #000000;
+  }
+
+  .card-front {
+    background-color: url("../../../public/Personal/Fotos/");
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(0deg);
+  }
+
+  .card-back {
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 24px;
+    transform: rotateY(180deg);
+    padding: 10px;
+  }
+
+  .title {
+    font-family: var(--title_prin);
+    font-size: 1em;
+  }
+
+  .descripcion {
+    font-size: 0.6em;
+    font-family: var(--paragraph);
+  }
+</style>

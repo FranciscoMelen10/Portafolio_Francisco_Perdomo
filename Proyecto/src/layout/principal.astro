@@ -1,0 +1,63 @@
+---
+import Footer from "../componets/footer.astro";
+import Header from "../componets/header.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <Header />
+
+    <slot />
+
+    <Footer />
+  </body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+<script src="/src/JS/header.js"></script>
+
+
+
+<style is:global>
+  :root {
+    /* COLORS LETTERS */
+    --yellow: #fff700;
+
+    /* BACKGROUND COLOR */
+    --background_prin: #24437a;        
+    --background_hv:#1977AC;
+
+    /* TEXT */
+    --paragraph: "Inter Tight", sans-serif;
+    --title_prin: "Anton", sans-serif;
+  }
+
+  * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+
+  body,
+  html {
+    width: 100%;
+    background-color: white;
+  }
+</style>
