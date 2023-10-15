@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not Found</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <p class="title">Error 404</p>
+        <p class="descripcion">PAGE NOT FOUND</p>
+      </article>
+      <picture>
+        <img src="../../public/Proyecto/Not found.svg" />
+      </picture>
+    </main>
+  </body>
+</html>
+
+<style>
+  * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+
+  body,
+  html {
+    width: 100%;
+    background-color: #2b5296;
+  }
+  main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+  }
+
+  picture {
+    width: 90%;
+    margin: 10vh 0;
+    max-width: 500px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .title {
+    font-size: 1em;
+    font-weight: 900;
+    font-family: "Anton", sans-serif;
+  }
+
+  .descripcion {
+    font-size: 0.3em;
+    font-weight: 500;
+    font-family: "Inter Tight", sans-serif;
+  }
+
+  @media screen and (max-width: 700px) {
+    picture {
+      margin: 10vh 0;
+    }
+  }
+</style>

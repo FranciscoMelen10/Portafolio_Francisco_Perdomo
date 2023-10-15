@@ -1,24 +1,25 @@
-
 ---
+interface Props {
+  fondo : string;
+}
 
+const {fondo} = Astro.props
 ---
 
 <section class="contenedor_principal">
-    <slot />
+  <slot />
 </section>
 
 <style>
-
   section {
-    width: 80%;
+    width: 90%;
     color: var(--letras);
-    margin: 10vh auto ;
+    margin: 15vh auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--background_prin);
+    background-color: {background};
     border-radius: 40px;
     max-width: 1000px;
   }
-
 </style>

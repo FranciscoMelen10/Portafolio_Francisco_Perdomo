@@ -1,18 +1,177 @@
 ---
 import Principal from "../layout/principal.astro";
 import Contenedor_principal from "../componets/containers/contenedor_principal.astro";
-import Presentacion from "../componets/cards/presentacion.astro";
-import Carusel from "../componets/cards/carusel_cursos.astro";
+import Carusel_curso from "../componets/cards/carusel_cursos.astro";
+import Carusel_skills from "../componets/cards/carusel_skills.astro";
+import Header from "../componets/header.astro";
 ---
 
-<Principal>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+
+      <div class="contenedor_principal_menu">
+        <Header seleccion={1}/>
+        <aside class="contenedor_menu">
+          <section>
+            <p class="title">Francisco Melendez</p>
+            <p class="descripcion">Entrenador de futbol</p>
+            <a class="cv" href="https://drive.google.com/file/d/1WKUMR-cxLW8BCqi34t6jKfy_9_ddjMKi/view?usp=sharing">Descargar CV</a>
+          </section>
+          <img src="../../public/Proyecto/Profile Pic.png" alt="Foto de ejemplo">
+        </aside>
+      </div>
+      
+      <div class="contenedor_sobre_mi">
+        <p class="borde title">Sobre mi</p>
+        <p class="descripcion">
+          Francisco de Jesús Meléndez Perdomo, mejor conocido como “Chico” es
+          promotor deportivo que forma parte de la “Academia ALMA” de futbol ubicada
+          en Managua, Luis Alfonso. Su papel en el futbol nicaraguense ha sido
+          promover grandes talentos jovenes al futbol de primera división, juvenil e
+          incluso a nivel de selección nacional.
+        </p>
+        <section>
+          
+        </section>
+      </div>
+
+
+      <!-- 
+  <p>Cursos</p>
   <Contenedor_principal>
-    <Presentacion />
+    <Carusel_curso></Carusel_curso>
   </Contenedor_principal>
 
+  <p>Habilidades de Trabajo</p>
   <Contenedor_principal>
-    <Carusel />
-  </Contenedor_principal>
+    <Carusel_skills></Carusel_skills>
+  </Contenedor_principal> -->
+    </main>
+  </body>
+</html>
 
-  
-</Principal>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+<script src="/src/JS/header.js"></script>
+
+<style>
+  * {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+
+  body,
+  html {
+    width: 100%;
+    height: 100%; 
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F5F5;
+  }
+
+  div {
+    height: 100vh;
+    width: 100%;
+    padding: 50px 50px 0 50px;
+
+  }
+
+  .contenedor_principal_menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url("../../public/Proyecto/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor_menu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family:"Anton", sans-serif;
+  color: white;
+  width: min-content;
+  height: 100%;
+}
+
+.contenedor_menu section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+  width: 80%;
+}
+
+.contenedor_menu img {
+  height:100%;
+}
+
+.title{
+  font-size: 85px;
+  font-weight: 900;
+}
+
+.contenedor_menu .descripcion{
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.cv {
+  text-decoration: none;
+  padding: 15px 40px;
+  background-color: #FFF730;
+  width: fit-content;
+  color: #24437a;
+  border-radius: 40px;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.contenedor_menu section p, .cv {
+  margin: 20px 0;
+}
+
+.contenedor_sobre_mi{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contenedor_sobre_mi .title{
+  font-size: 45px;
+  width: fit-content;
+  color: #24437a;
+}
+
+.contenedor_sobre_mi .descripcion {
+  text-align: center;
+  font-size: 30px;
+  color: #24437a;
+
+}
+
+.contenedor_sobre_mi p{
+  margin: 20px 0;
+}
+
+.borde{
+    border-bottom: solid yellow;
+  }
+
+
+</style>

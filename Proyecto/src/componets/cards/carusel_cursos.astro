@@ -1,13 +1,12 @@
 ---
-import cursos from "../../JSON/cursos.json";
+import cursos from "../../JSON/principal/cursos.json";
 ---
-
 
 <swiper-container class="mySwiper" init="false">
   {
     cursos.map((info) => {
       return (
-        <swiper-slide class="sss">
+        <swiper-slide>
           <div class="card">
             <div class="card-inner">
               <div class="card-front">
@@ -55,13 +54,15 @@ import cursos from "../../JSON/cursos.json";
   }
 </swiper-container>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
 <script src="/src/JS/swiper_pagination.js"></script>
 
 <style>
   swiper-container {
     width: 100%;
     height: 100%;
-    background: #fff;
+    background: #ffffff;
+    margin-top: -50px;
   }
 
   .ocultar {
@@ -71,7 +72,7 @@ import cursos from "../../JSON/cursos.json";
   swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #ffffff00;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,6 +101,7 @@ import cursos from "../../JSON/cursos.json";
 
   .card:hover .card-inner {
     transform: rotateY(180deg);
+    cursor: pointer;
   }
 
   .card-front,
@@ -134,7 +136,7 @@ import cursos from "../../JSON/cursos.json";
 
   .title {
     font-family: var(--title_prin);
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .descripcion {

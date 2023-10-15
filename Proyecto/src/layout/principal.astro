@@ -22,7 +22,7 @@ import Header from "../componets/header.astro";
     <title>Document</title>
   </head>
   <body>
-    <Header />
+    <Header seleccion={3}/>
 
     <slot />
 
@@ -58,6 +58,9 @@ import Header from "../componets/header.astro";
   body,
   html {
     width: 100%;
-    background-color: white;
+    background: url("../../public/Proyecto/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
   }
 </style>

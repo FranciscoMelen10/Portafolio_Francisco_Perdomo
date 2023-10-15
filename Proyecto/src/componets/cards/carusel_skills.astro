@@ -1,0 +1,65 @@
+---
+import Skills from "../../JSON/principal/skills.json";
+---
+
+<swiper-container
+  class="mySwiper"
+  pagination="true"
+  effect="coverflow"
+  grab-cursor="true"
+  centered-slides="true"
+  slides-per-view="auto"
+  coverflow-effect-rotate="60"
+  coverflow-effect-stretch="0"
+  coverflow-effect-depth="100"
+  coverflow-effect-modifier="1"
+  coverflow-effect-slide-shadows="false"
+>
+  {
+    Skills.map((info) => {
+      return (
+        <swiper-slide>
+          <img src="../../../public/Proyecto/Logo Managua.png" />
+          <p class="title">{info.habilidad}</p>
+        </swiper-slide>
+      );
+    })
+  }
+</swiper-container>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"
+></script>
+
+<style>
+  swiper-container {
+    width: 100%;
+    background-color: white;
+    margin-top: -50px;
+
+  }
+
+  swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 10px;
+  }
+
+  swiper-slide img {
+    width: 50%;
+  }
+
+  .title {
+    font-family: var(--title_prin);
+    font-size: 0.8em;
+    text-align: center;
+  }
+</style>

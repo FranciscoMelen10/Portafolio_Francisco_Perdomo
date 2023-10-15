@@ -1,6 +1,14 @@
+---
+interface Props {
+  seleccion:number;
+}
+
+const {seleccion} = Astro.props
+---
 <header>
+<img src="../../public/Proyecto/Logo.png" alt="Logo">
+<div>
   <a id="hambuerguesa" class="icon_hambuerguesa">
-    <p>Francisco Melendez</p>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="40"
@@ -11,10 +19,10 @@
     >
   </a>
   <nav class="screen_ph">
-    <a href="/"> Home</a>
-    <a href="/torneos"> Torneos</a>
-    <a href="/Academia"> Academia ALMA</a>
-    <a href="/acerca"> Acerca de</a>
+    <a href="/" class=`${seleccion === 1 ? "borde" : ""}`> Home</a>
+    <a href="/torneos" class=`${seleccion === 2 ? "borde" : ""}`> Torneos</a>
+    <a href="/Academia" class=`${seleccion === 3 ? "borde" : ""}`> Academia ALMA</a>
+    <a href="/acerca" class=`${seleccion === 4 ? "borde" : ""}`> Acerca de</a>
     
     <a id="close">
         <svg
@@ -29,31 +37,34 @@
         ></a
       >
   </nav>
+</div>
+</header>
 
   <style>
     header {
-      background-color: #24437a;
       width: 100%;
-      height: 100px;
       display: flex;
-      justify-content: space-evenly;
+      justify-content: space-between;
       align-items: center;
+    }
+
+    div {
+      width: 80%;
     }
 
     nav {
       display: flex;
       align-items: center;
       justify-content: space-around;
-      width: 100%;
-      height: 100%;
     }
 
     a {
       text-decoration: none;
       transition: 0.5s ease-out;
       color: white;
-      font-size: 20px;
-      font-family: var(--title_prin);
+      font-size: 25px;
+      font-weight: 900;
+      font-family: "Anton", sans-serif;
     }
 
     nav a:hover {
@@ -62,7 +73,7 @@
     }
 
     #close :hover{
-        background-color: red;
+      background-color: red;
     }
 
     .icon_hambuerguesa,
@@ -75,7 +86,11 @@
       padding: 10px;
     }
 
-    @media screen and (max-width: 600px) {
+    .borde{
+    border-bottom: solid yellow;
+  }
+
+    @media screen and (max-width: 700px) {
       .screen_ph {
         display: none;
       }
