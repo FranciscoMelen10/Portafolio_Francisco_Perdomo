@@ -1,0 +1,165 @@
+<section>
+  <div class="container">
+    <div class="carousel">
+      <div class="a">
+        <div class="item">
+          <img
+            src="../../../public/Proyecto/svg/Diploma Título Curso Profesional Elegante Blanco 1.png"
+          />
+        </div>
+      </div>
+      <div class="b">
+        <div class="item">
+          <img
+            src="../../../public/Proyecto/svg/Diploma Título Curso Profesional Elegante Blanco 1.png"
+          />
+        </div>
+      </div>
+      <div class="c">
+        <div class="item">
+          <img
+            src="../../../public/Proyecto/svg/Diploma Título Curso Profesional Elegante Blanco 1.png"
+          />
+        </div>
+      </div>
+      <div class="d">
+        <div class="item">
+          <img
+            src="../../../public/Proyecto/svg/Diploma Título Curso Profesional Elegante Blanco 1.png"
+          />
+        </div>
+      </div>
+      <div class="e">
+        <div class="item">
+          <img
+            src="../../../public/Proyecto/svg/Diploma Título Curso Profesional Elegante Blanco 1.png"
+          />
+        </div>
+      </div>
+      <div class="f">
+        <div class="item">
+          <img
+            src="../../../public/Proyecto/svg/Diploma Título Curso Profesional Elegante Blanco 1.png"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="next">{">"}</div>
+  <div class="prev">{"<"}</div>
+</section>
+
+<script src="../../JS/carusel_cursos.js"></script>
+
+<style>
+  section{
+    display: flex;
+    align-items: center;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    perspective: 1000px;
+  }
+
+  .carousel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+  }
+  .carousel div {
+    transform-style: preserve-3d;
+  }
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .item {
+    display: block;
+    position: absolute;
+    background: #000;
+    width: 250px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 5em;
+    text-align: center;
+    color: #fff;
+    opacity: 0.95;
+    border-radius: 10px;
+    transition: transform 1s;
+    
+  }
+
+  .a {
+    transform: rotateY(0deg) translateZ(250px);
+  }
+  .a .item {
+    background: #ed1c24;
+  }
+  .b {
+    transform: rotateY(60deg) translateZ(250px) rotateY(-60deg);
+  }
+  .b .item {
+    background: #0072bc;
+  }
+  .c {
+    transform: rotateY(120deg) translateZ(250px) rotateY(-120deg);
+  }
+  .c .item {
+    background: #39b54a;
+  }
+  .d {
+    transform: rotateY(180deg) translateZ(250px) rotateY(-180deg);
+  }
+  .d .item {
+    background: #f26522;
+  }
+  .e {
+    transform: rotateY(240deg) translateZ(250px) rotateY(-240deg);
+  }
+  .e .item {
+    background: #630460;
+  }
+  .f {
+    transform: rotateY(300deg) translateZ(250px) rotateY(-300deg);
+  }
+  .f .item {
+    background: #8c6239;
+  }
+
+  .next,
+  .prev {
+    color: #24437a;
+    position: absolute;
+    padding: 1em 2em;
+    cursor: pointer;
+    background: #ccc;
+    border-radius: 5px;
+    border-top: 1px solid #fff;
+    box-shadow: 0 5px 0 #999;
+    transition:
+      box-shadow 0.1s,
+      top 0.1s;
+  }
+  .next:hover,
+  .prev:hover {
+    color: #000;
+  }
+  .next:active,
+  .prev:active {
+    box-shadow: 0 1px 0 #999;
+  }
+  .next {
+    right: 5em;
+  }
+  .prev {
+    left: 5em;
+  }
+</style>

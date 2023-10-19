@@ -1,12 +1,15 @@
 ---
 //Componentes
 import Header from "../componets/header.astro";
-import Carusel_pics from "../componets/cards/carusel_pics.astro";
 import Title from "../componets/title.astro";
+
+//Caruseles
+import Carusel_pics from "../componets/cards/carusel_pics.astro";
+import Carususel_cursos from "../componets/cards/carusel_cursos.astro";
 
 //JSON
 import Pictures_json from "../JSON/principal/pictures.json";
-import CaruselSkills from "../componets/cards/carusel_skills.astro";
+import Footer from "../componets/footer.astro";
 ---
 
 <!doctype html>
@@ -83,14 +86,18 @@ import CaruselSkills from "../componets/cards/carusel_skills.astro";
         </aside>
       </div>
 
+      <div>
+        <Title titulo="Cursos" />
+        <Carususel_cursos />
+      </div>
     </main>
+    <Footer />
   </body>
 </html>
 
 <script
   src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"
 ></script>
-<script src="/src/JS/header.js"></script>
 
 <style>
   * {
@@ -110,19 +117,20 @@ import CaruselSkills from "../componets/cards/carusel_skills.astro";
     align-items: center;
     flex-direction: column;
     background-color: #f5f5f5;
+    margin-bottom: 20vh;
   }
 
   div {
     height: 100%;
     width: 100%;
     padding: 50px 100px 0 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
   .contenedor_principal_menu {
     height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     background: url("../../public/Proyecto/Background.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -134,7 +142,7 @@ import CaruselSkills from "../componets/cards/carusel_skills.astro";
     justify-content: center;
     align-items: end;
     text-transform: uppercase;
-    font-family: "Krona", sans-serif;
+    font-family: "Krona one", sans-serif;
     color: white;
     height: 100%;
     width: 100%;
@@ -145,21 +153,20 @@ import CaruselSkills from "../componets/cards/carusel_skills.astro";
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    height: 100%;
+    width: 100%;
   }
 
   .contenedor_menu img {
     height: 90%;
   }
 
-  .title {
-    font-size: 65px;
+  .contenedor_menu .title {
+    font-size: 90px;
     font-family: "Koulen", sans-serif;
   }
 
   .contenedor_menu .descripcion {
     font-size: 30px;
-    font-weight: 500;
   }
 
   .cv {
@@ -178,43 +185,44 @@ import CaruselSkills from "../componets/cards/carusel_skills.astro";
     margin: 10px 0;
   }
 
-  .contenedor_sobre_mi {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
   .contenedor_sobre_mi .descripcion {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: #24437a;
     font-family: "Inter", sans-serif;
-  }
-
-  .contenedor_sobre_mi p {
-    margin: 20px 0;
   }
 
   .aside_skills {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
     width: 100%;
+  }
+
+  .aside_skills section {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
   }
 
   .aside_skills img {
     width: 200px;
     height: 200px;
     padding: 50px;
-    border-radius: 100%;
-    object-fit: cover;
+    border-radius: 50%;
     background-color: #24437a;
+    transition: all 0.5s;
+  }
+
+  .aside_skills:hover img {
+    background-color: #fff730;
   }
 
   .aside_skills p {
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-family: "Krona one", sans-serif;
+    font-size: 20px;
     color: #24437a;
+    margin-top: 40px;
   }
 </style>
