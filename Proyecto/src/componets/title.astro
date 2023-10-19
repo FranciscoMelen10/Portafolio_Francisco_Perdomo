@@ -1,0 +1,23 @@
+---
+interface Props {
+    titulo:string;
+}
+
+const {titulo} = Astro.props;
+---
+
+
+<p class="borde title">{titulo}</p>
+
+<style>
+  .title {
+    font-family: 'Koulen', sans-serif;
+    font-size: 45px;
+    color: #24437a;
+  }
+
+  .borde {
+    border-bottom: 10px solid yellow;
+  }
+  
+</style>

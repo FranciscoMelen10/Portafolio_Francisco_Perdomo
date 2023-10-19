@@ -1,9 +1,12 @@
 ---
-import Principal from "../layout/principal.astro";
-import Contenedor_principal from "../componets/containers/contenedor_principal.astro";
-import Carusel_curso from "../componets/cards/carusel_cursos.astro";
-import Carusel_skills from "../componets/cards/carusel_skills.astro";
+//Componentes
 import Header from "../componets/header.astro";
+import Carusel_pics from "../componets/cards/carusel_pics.astro";
+import Title from "../componets/title.astro";
+
+//JSON
+import Pictures_json from "../JSON/principal/pictures.json";
+import CaruselSkills from "../componets/cards/carusel_skills.astro";
 ---
 
 <!doctype html>
@@ -11,53 +14,82 @@ import Header from "../componets/header.astro";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Koulen&family=Krona+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home</title>
   </head>
   <body>
     <main>
-
       <div class="contenedor_principal_menu">
-        <Header seleccion={1}/>
+        <Header seleccion={1} />
         <aside class="contenedor_menu">
           <section>
             <p class="title">Francisco Melendez</p>
             <p class="descripcion">Entrenador de futbol</p>
-            <a class="cv" href="https://drive.google.com/file/d/1WKUMR-cxLW8BCqi34t6jKfy_9_ddjMKi/view?usp=sharing">Descargar CV</a>
+            <a
+              class="cv"
+              href="https://drive.google.com/file/d/1WKUMR-cxLW8BCqi34t6jKfy_9_ddjMKi/view?usp=sharing"
+              >Descargar CV</a
+            >
           </section>
-          <img src="../../public/Proyecto/Profile Pic.png" alt="Foto de ejemplo">
+          <img
+            src="../../public/Proyecto/Profile Pic.png"
+            alt="Foto de ejemplo"
+          />
         </aside>
       </div>
-      
+
       <div class="contenedor_sobre_mi">
-        <p class="borde title">Sobre mi</p>
+        <Title titulo="sobre mi" />
         <p class="descripcion">
           Francisco de Jesús Meléndez Perdomo, mejor conocido como “Chico” es
-          promotor deportivo que forma parte de la “Academia ALMA” de futbol ubicada
-          en Managua, Luis Alfonso. Su papel en el futbol nicaraguense ha sido
-          promover grandes talentos jovenes al futbol de primera división, juvenil e
-          incluso a nivel de selección nacional.
+          promotor deportivo que forma parte de la “Academia ALMA” de futbol
+          ubicada en Managua, Luis Alfonso. Su papel en el futbol nicaraguense
+          ha sido promover grandes talentos jovenes al futbol de primera
+          división, juvenil e incluso a nivel de selección nacional.
         </p>
-        <section>
-          
+        <section class="section_carusel">
+          <Carusel_pics fotos={Pictures_json} />
         </section>
       </div>
 
+      <div class="contenedor_sobre_mi">
+        <Title titulo="Habilidades de trabajo" />
+        <aside class="aside_skills">
+          <section>
+            <img src="../../public/Proyecto/svg/team-building.png" />
+            <p>Trabajo en Equipo</p>
+          </section>
+          <section>
+            <img src="../../public/Proyecto/svg/team-building.png" />
+            <p>Interacción</p>
+          </section>
+          <section>
+            <img src="../../public/Proyecto/svg/team-building.png" />
+            <p>Toma de Decisiones</p>
+          </section>
+          <section>
+            <img src="../../public/Proyecto/svg/team-building.png" />
+            <p>Interacción</p>
+          </section>
+          <section>
+            <img src="../../public/Proyecto/svg/team-building.png" />
+            <p>Trabajo en Equipo</p>
+          </section>
+        </aside>
+      </div>
 
-      <!-- 
-  <p>Cursos</p>
-  <Contenedor_principal>
-    <Carusel_curso></Carusel_curso>
-  </Contenedor_principal>
-
-  <p>Habilidades de Trabajo</p>
-  <Contenedor_principal>
-    <Carusel_skills></Carusel_skills>
-  </Contenedor_principal> -->
     </main>
   </body>
 </html>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"
+></script>
 <script src="/src/JS/header.js"></script>
 
 <style>
@@ -70,24 +102,24 @@ import Header from "../componets/header.astro";
   body,
   html {
     width: 100%;
-    height: 100%; 
+    height: 100%;
   }
 
   main {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
   }
 
   div {
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    padding: 50px 50px 0 50px;
-
+    padding: 50px 100px 0 100px;
   }
 
   .contenedor_principal_menu {
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -95,83 +127,94 @@ import Header from "../componets/header.astro";
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.contenedor_menu{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  font-family:"Anton", sans-serif;
-  color: white;
-  width: min-content;
-  height: 100%;
-}
-
-.contenedor_menu section{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-self: center;
-  height: 100%;
-  width: 80%;
-}
-
-.contenedor_menu img {
-  height:100%;
-}
-
-.title{
-  font-size: 85px;
-  font-weight: 900;
-}
-
-.contenedor_menu .descripcion{
-  font-size: 35px;
-  font-weight: 500;
-}
-
-.cv {
-  text-decoration: none;
-  padding: 15px 40px;
-  background-color: #FFF730;
-  width: fit-content;
-  color: #24437a;
-  border-radius: 40px;
-  font-size: 30px;
-  font-weight: 900;
-}
-
-.contenedor_menu section p, .cv {
-  margin: 20px 0;
-}
-
-.contenedor_sobre_mi{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.contenedor_sobre_mi .title{
-  font-size: 45px;
-  width: fit-content;
-  color: #24437a;
-}
-
-.contenedor_sobre_mi .descripcion {
-  text-align: center;
-  font-size: 30px;
-  color: #24437a;
-
-}
-
-.contenedor_sobre_mi p{
-  margin: 20px 0;
-}
-
-.borde{
-    border-bottom: solid yellow;
   }
 
+  .contenedor_menu {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-transform: uppercase;
+    font-family: "Krona", sans-serif;
+    color: white;
+    height: 100%;
+    width: 100%;
+  }
 
+  .contenedor_menu section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 100%;
+  }
+
+  .contenedor_menu img {
+    height: 90%;
+  }
+
+  .title {
+    font-size: 65px;
+    font-family: "Koulen", sans-serif;
+  }
+
+  .contenedor_menu .descripcion {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .cv {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #fff730;
+    width: fit-content;
+    color: #24437a;
+    border-radius: 40px;
+    font-size: 20px;
+    font-weight: 900;
+  }
+
+  .contenedor_menu section p,
+  .cv {
+    margin: 10px 0;
+  }
+
+  .contenedor_sobre_mi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contenedor_sobre_mi .descripcion {
+    text-align: center;
+    font-size: 30px;
+    color: #24437a;
+    font-family: "Inter", sans-serif;
+  }
+
+  .contenedor_sobre_mi p {
+    margin: 20px 0;
+  }
+
+  .aside_skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .aside_skills img {
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    background-color: #24437a;
+  }
+
+  .aside_skills p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: #24437a;
+  }
 </style>
