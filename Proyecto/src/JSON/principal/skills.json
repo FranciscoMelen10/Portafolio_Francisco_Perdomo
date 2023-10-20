@@ -1,20 +1,17 @@
 [
     {
-        "habilidad": "Facilidad de interactuar con niños y adultos"
+        "habilidad": "Interacción"
     },
     {
-        "habilidad": "Facilidad de trabajar en equipo"
+        "habilidad": "Trabajo en equipo"
     },
     {
-        "habilidad": "Capacidad de tomar decisiones"
+        "habilidad": "Decisión"
     },
     {
-        "habilidad": "Dedicado por el trabajo que desempeño"
+        "habilidad": "Dedicación"
     },
     {
-        "habilidad": "Persistencia y constancia para obtener los resultados deseados"
-    },
-    {
-        "habilidad": "Capacidad de liderazgo"
+        "habilidad": "Liderazgo"
     }
 ]

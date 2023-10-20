@@ -2,6 +2,8 @@
 //Componentes
 import Header from "../componets/header.astro";
 import Title from "../componets/title.astro";
+import Footer from "../componets/footer.astro";
+
 
 //Caruseles
 import Carusel_pics from "../componets/cards/carusel_pics.astro";
@@ -9,7 +11,8 @@ import Carususel_cursos from "../componets/cards/carusel_cursos.astro";
 
 //JSON
 import Pictures_json from "../JSON/principal/pictures.json";
-import Footer from "../componets/footer.astro";
+import Skills_json from "../JSON/principal/skills.json";
+
 ---
 
 <!doctype html>
@@ -63,26 +66,18 @@ import Footer from "../componets/footer.astro";
       <div class="contenedor_sobre_mi">
         <Title titulo="Habilidades de trabajo" />
         <aside class="aside_skills">
-          <section>
-            <img src="../../public/Proyecto/svg/team-building.png" />
-            <p>Trabajo en Equipo</p>
-          </section>
-          <section>
-            <img src="../../public/Proyecto/svg/team-building.png" />
-            <p>Interacción</p>
-          </section>
-          <section>
-            <img src="../../public/Proyecto/svg/team-building.png" />
-            <p>Toma de Decisiones</p>
-          </section>
-          <section>
-            <img src="../../public/Proyecto/svg/team-building.png" />
-            <p>Interacción</p>
-          </section>
-          <section>
-            <img src="../../public/Proyecto/svg/team-building.png" />
-            <p>Trabajo en Equipo</p>
-          </section>
+          {
+            Skills_json.map((info) => {
+              return(
+              <section>
+                <picture>
+                  <img src="../../public/Proyecto/svg/team-building.png" class="skills_img"/>
+                </picture>
+                <p>{info.habilidad}</p>
+              </section>
+              )
+            })
+          }
         </aside>
       </div>
 
@@ -200,29 +195,35 @@ import Footer from "../componets/footer.astro";
   }
 
   .aside_skills section {
+    width: 300px;
+    height: 300px;
     text-align: center;
     flex-direction: column;
     display: flex;
     align-items: center;
   }
 
-  .aside_skills img {
+  .aside_skills picture{
     width: 200px;
     height: 200px;
-    padding: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     background-color: #24437a;
     transition: all 0.5s;
   }
 
-  .aside_skills:hover img {
-    background-color: #fff730;
+  .aside_skills picture:hover{
+    background-color: #3b83ff;
+    cursor: pointer;
   }
 
   .aside_skills p {
     font-family: "Krona one", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #24437a;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 </style>
