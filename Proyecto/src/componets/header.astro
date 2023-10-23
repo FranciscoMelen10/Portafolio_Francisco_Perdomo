@@ -1,30 +1,31 @@
 ---
 interface Props {
-  seleccion:number;
+  seleccion: number;
 }
 
-const {seleccion} = Astro.props
+const { seleccion } = Astro.props;
 ---
+
 <header>
-<img src="../../public/Proyecto/Logo.png" alt="Logo">
-<div>
-  <a id="hambuerguesa" class="icon_hambuerguesa">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="40"
-      height="40"
-      viewBox="0 0 24 24"
-      style="fill: rgb(255, 255, 255);transform: ;msFilter:;"
-      ><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg
-    >
-  </a>
-  <nav class="screen_ph">
-    <a href="/" class=`${seleccion === 1 ? "borde" : ""}`> Home</a>
-    <a href="/torneos" class=`${seleccion === 2 ? "borde" : ""}`> Torneos</a>
-    <a href="/Academia" class=`${seleccion === 3 ? "borde" : ""}`> Academia ALMA</a>
-    <a href="/acerca" class=`${seleccion === 4 ? "borde" : ""}`> Acerca de</a>
-    
-    <a id="close">
+  <img src="../../public/Proyecto/Logo.png" alt="Logo" />
+  <div>
+    <a id="hambuerguesa" class="icon_hambuerguesa">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="40"
+        height="40"
+        viewBox="0 0 24 24"
+        style="fill: rgb(255, 255, 255);transform: ;msFilter:;"
+        ><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg
+      >
+    </a>
+    <nav class="screen_ph">
+      <a href="/" class=`${seleccion === 1 ? "borde" : ""}`> Home</a>
+      <a href="/torneos" class=`${seleccion === 2 ? "borde" : ""}`> Torneos</a>
+      <a href="/Academia" class=`${seleccion === 3 ? "borde" : ""}`>Academia ALMA</a>
+      <a href="/acerca" class=`${seleccion === 4 ? "borde" : ""}`> Acerca de</a>
+
+      <a id="close">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="40"
@@ -36,89 +37,91 @@ const {seleccion} = Astro.props
           ></path></svg
         ></a
       >
-  </nav>
-</div>
+    </nav>
+  </div>
 </header>
 
-  <style>
-    header {
-      width: 100%;
+<style>
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  div {
+    width: 60%;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  a {
+    text-decoration: none;
+    transition: 0.5s ease-out;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Anton", sans-serif;
+  }
+
+  nav a:hover {
+    color: yellow;
+  }
+
+  #close :hover {
+    background-color: red;
+  }
+
+  .icon_hambuerguesa,
+  #close {
+    transition: all 1s;
+    display: none;
+  }
+
+  nav a {
+    padding: 10px;
+  }
+
+  .borde {
+    border-bottom: solid yellow;
+  }
+
+  @media screen and (max-width: 700px) {
+    .screen_ph {
+      display: none;
+    }
+
+    .screen_ph.visible {
+      position: fixed;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      height: 100vh;
+      display: none;
+      visibility: visible;
+      opacity: 1;
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
       align-items: center;
+      justify-content: center;
+      background-color: #24437a;
     }
 
-    div {
-      width: 60%;
+    #close {
+      display: block;
     }
 
-    nav {
+    .icon_hambuerguesa {
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: space-around;
     }
-
-    a {
-      text-decoration: none;
-      transition: 0.5s ease-out;
-      color: white;
-      font-size: 20px;
-      font-weight: 900;
-      font-family: "Anton", sans-serif;
-    }
-
-    nav a:hover {
-      color: yellow;
-      transform: scale(1.2);
-    }
-
-    #close :hover{
-      background-color: red;
-    }
-
-    .icon_hambuerguesa,
-    #close {
-      transition: all 1s;
-      display: none;
-    }
-
-    nav a {
-      padding: 10px;
-    }
-
-    .borde{
-    border-bottom: solid yellow;
   }
-
-    @media screen and (max-width: 700px) {
-      .screen_ph {
-        display: none;
-      }
-
-      .screen_ph.visible {
-        position: fixed;
-        right: 0;
-        top: 0;
-        margin: 0;
-        height: 100vh;
-        display: none;
-        visibility: visible;
-        opacity: 1;
-        display: flex;
-        flex-direction: column;
-        background-color: var(--background_prin);
-      }
-
-      #close {
-        display: block;
-      }
-
-      .icon_hambuerguesa {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-      }
-    }
-  </style>
-</header>
+</style>
