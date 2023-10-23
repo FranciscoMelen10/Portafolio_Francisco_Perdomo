@@ -47,10 +47,11 @@ const { seleccion } = Astro.props;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 100;
   }
 
   div {
-    width: 60%;
+    width: auto;
   }
 
   nav {
@@ -90,7 +91,7 @@ const { seleccion } = Astro.props;
     border-bottom: solid yellow;
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 740px) {
     .screen_ph {
       display: none;
     }

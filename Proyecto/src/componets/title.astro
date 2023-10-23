@@ -6,14 +6,20 @@ interface Props {
 const { titulo } = Astro.props;
 ---
 
-<p class="borde title">{titulo}</p>
+<p>{titulo}</p>
 
 <style>
-  .title {
+  p {
     font-family: "Koulen", sans-serif;
     font-size: 45px;
     color: #24437a;
     border-bottom: 10px solid yellow;
     margin-bottom: 40px;
+  }
+
+  @media screen and (max-width: 470px) {
+    p{
+      font-size: 35px;
+    }
   }
 </style>
