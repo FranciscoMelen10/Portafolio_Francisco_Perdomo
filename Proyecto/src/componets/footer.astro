@@ -4,9 +4,9 @@
 
 <footer>
   <section class="creators">
-    <p>designed by <span>renchi melendez</span></p>
-    <p>|</p>
-    <p>developed by <span>francisco melendez JR</span></p>
+    <p class="desined">designed by <span>renchi melendez</span></p>
+    <p class="guion">|</p>
+    <p class="developed">developed by <span>francisco melendez JR</span></p>
   </section>
   <section class="socials">
     <div class="group relative">
@@ -50,8 +50,8 @@
   section {
     display: flex;
     align-items: center;
-    width: 50%;
     text-align: center;
+    width: 100%;
   }
 
   .creators {
@@ -74,5 +74,30 @@
 
   .socials div {
     margin: 0 20px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .creators {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .guion {
+      display: none;
+    }
+
+    .developed {
+      border-top: 2px solid yellow;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    section {
+      width: auto;
+    }
+
+    .developed {
+      border-top: 2px solid yellow;
+    }
   }
 </style>

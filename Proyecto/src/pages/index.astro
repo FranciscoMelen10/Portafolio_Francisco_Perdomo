@@ -11,6 +11,7 @@ import Carususel_cursos from "../componets/cards/carusel_cursos.astro";
 //JSON
 import Pictures_json from "../JSON/principal/pictures.json";
 import Skills_json from "../JSON/principal/skills.json";
+import CounterSkills from "../componets/counter_skills.astro";
 ---
 
 <!doctype html>
@@ -48,11 +49,7 @@ import Skills_json from "../JSON/principal/skills.json";
       </div>
 
       <div class="contenedor_historial">
-        <aside>
-          <section>
-            <p></p>
-          </section>
-        </aside>
+        <CounterSkills client:visible></CounterSkills>
       </div>
 
       <div class="contenedor_sobre_mi">
@@ -171,10 +168,12 @@ import Skills_json from "../JSON/principal/skills.json";
     font-size: 90px;
     font-family: "Koulen", sans-serif;
     margin: auto;
+    line-height: 0.5;
   }
 
   .contenedor_menu .descripcion {
     font-size: 30px;
+    line-height: 2;
   }
 
   .cv {
@@ -186,6 +185,7 @@ import Skills_json from "../JSON/principal/skills.json";
     border-radius: 40px;
     font-size: 20px;
     font-weight: 900;
+    font-family: "Krona one", sans-serif;
   }
 
   .contenedor_menu section p,
@@ -198,6 +198,13 @@ import Skills_json from "../JSON/principal/skills.json";
     font-size: 25px;
     color: #24437a;
     font-family: "Inter", sans-serif;
+  }
+
+  /* Seccion de cv */
+  .contenedor_historial{
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
   }
 
   /* Seccion de habilidades */
@@ -297,11 +304,15 @@ import Skills_json from "../JSON/principal/skills.json";
     .cv {
       font-size: 15px;
     }
+
+    .contenedor_sobre_mi .descripcion {
+      font-size: 20px;
+    }
   }
 
   @media screen and (max-width: 520px) {
     .contenedor_menu .title {
-      font-size: 40px;
+      font-size: 35px;
     }
 
     .contenedor_menu .descripcion {
