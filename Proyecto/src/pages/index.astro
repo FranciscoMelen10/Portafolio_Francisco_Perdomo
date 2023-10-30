@@ -25,6 +25,8 @@ import CounterSkills from "../componets/counter_skills.astro";
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Koulen&family=Krona+One&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <title>Home</title>
   </head>
   <body>
@@ -47,10 +49,9 @@ import CounterSkills from "../componets/counter_skills.astro";
           />
         </aside>
       </div>
-
-      <div class="contenedor_historial">
-        <CounterSkills client:visible></CounterSkills>
-      </div>
+      <!-- <div class="contenedor_historial">
+        <CounterSkills client:visible />
+      </div> -->
 
       <div class="contenedor_sobre_mi">
         <Title titulo="sobre mi" />
@@ -66,7 +67,7 @@ import CounterSkills from "../componets/counter_skills.astro";
         </section>
       </div>
 
-      <div class="contenedor_sobre_mi">
+      <!-- <div class="contenedor_sobre_mi">
         <Title titulo="Habilidades de trabajo" />
         <aside class="aside_skills">
           {
@@ -85,7 +86,7 @@ import CounterSkills from "../componets/counter_skills.astro";
             })
           }
         </aside>
-      </div>
+      </div> -->
 
       <div>
         <Title titulo="Cursos" />
@@ -125,7 +126,7 @@ import CounterSkills from "../componets/counter_skills.astro";
   div {
     height: 100%;
     width: 100%;
-    padding: 50px 100px 0 100px;
+    padding: 50px 80px 0 80px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -168,12 +169,12 @@ import CounterSkills from "../componets/counter_skills.astro";
     font-size: 90px;
     font-family: "Koulen", sans-serif;
     margin: auto;
-    line-height: 0.5;
+    line-height: 0.9  ;
   }
 
   .contenedor_menu .descripcion {
     font-size: 30px;
-    line-height: 2;
+    line-height: 1;
   }
 
   .cv {
@@ -201,7 +202,7 @@ import CounterSkills from "../componets/counter_skills.astro";
   }
 
   /* Seccion de cv */
-  .contenedor_historial{
+  .contenedor_historial {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;

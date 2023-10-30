@@ -1,26 +1,44 @@
 [
     {
+        "img": "../../../public/Proyecto/svg/Seminario.svg",
         "title": "Seminario para Tecnicos",
-        "descripcion": "Realizado en Carazo por la Federación Nicaragüense de Futbol (FENIFUT)"
+        "descripcion": "Realizado en Carazo por la Federación Nicaragüense de Futbol (FENIFUT)",
+        "tipo": "Seminario",
+        "date": "2015"
     },
     {
+        "img": "../../../public/Proyecto/svg/diploma.svg",
         "title": "Implementacion de Escuelas de Futbol I",
-        "descripcion": "Realizado en Costa Rica, impartido por el club Saprissa, por un período de 25 horas"
-    },    
+        "descripcion": "Realizado en Costa Rica, impartido por el club Saprissa, por un período de 25 horas",
+        "tipo": "Diploma",
+        "date": "2016"
+    },
     {
+        "img": "../../../public/Proyecto/svg/diploma.svg",
         "title": "Implementacion de Escuelas de Futbol II",
-        "descripcion": "Realizado en Costa Rica, impartido por el club Saprissa, por un período de 40 horas"
-    },    
+        "descripcion": "Realizado en Costa Rica, impartido por el club Saprissa, por un período de 40 horas",
+        "tipo": "Diploma",
+        "date": "2016"
+    },
     {
+        "img": "../../../public/Proyecto/svg/Seminario.svg",
         "title": "Sports Camp",
-        "descripcion": "Realizado por entrenadores especialistas en Ciencias del Deporte y Medicina Deportiva, en la Universidad Americana (UAM)"
-    },    
+        "descripcion": "Realizado por entrenadores especialistas en Ciencias del Deporte y Medicina Deportiva, en la Universidad Americana (UAM)",
+        "tipo": "Seminario",
+        "date": "2015"
+    },
     {
+        "img": "../../../public/Proyecto/svg/Licencia Icon.svg",
         "title": "Licencia D",
-        "descripcion": "Realizado en Managua, impartido para los entrenadores de fútbol a nivel nacional"
-    },    
+        "descripcion": "Realizado en Managua, impartido para los entrenadores de fútbol a nivel nacional",
+        "tipo": "Licencia",
+        "date": "2022"
+    },
     {
+        "img": "../../../public/Proyecto/svg/Licencia Icon.svg",
         "title": "Licencia C",
-        "descripcion": "Realizado en Managua, impartido para los entrenadores de fútbol a nivel nacional"
+        "descripcion": "Realizado en Managua, impartido para los entrenadores de fútbol a nivel nacional",
+        "tipo": "Licencia",
+        "date": "2023"
     }
 ]
