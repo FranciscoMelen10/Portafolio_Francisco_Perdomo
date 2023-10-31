@@ -25,7 +25,10 @@ import CounterSkills from "../componets/counter_skills.astro";
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Koulen&family=Krona+One&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <title>Home</title>
   </head>
@@ -49,9 +52,9 @@ import CounterSkills from "../componets/counter_skills.astro";
           />
         </aside>
       </div>
-      <!-- <div class="contenedor_historial">
-        <CounterSkills client:visible />
-      </div> -->
+      <div class="contenedor_historial">
+        <CounterSkills />
+      </div>
 
       <div class="contenedor_sobre_mi">
         <Title titulo="sobre mi" />
@@ -67,7 +70,7 @@ import CounterSkills from "../componets/counter_skills.astro";
         </section>
       </div>
 
-      <!-- <div class="contenedor_sobre_mi">
+      <div class="contenedor_sobre_mi">
         <Title titulo="Habilidades de trabajo" />
         <aside class="aside_skills">
           {
@@ -86,7 +89,7 @@ import CounterSkills from "../componets/counter_skills.astro";
             })
           }
         </aside>
-      </div> -->
+      </div>
 
       <div>
         <Title titulo="Cursos" />
@@ -119,7 +122,7 @@ import CounterSkills from "../componets/counter_skills.astro";
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #f5f5f5;
+    background-color: #fff;
     margin-bottom: 20vh;
   }
 
@@ -145,7 +148,7 @@ import CounterSkills from "../componets/counter_skills.astro";
   .contenedor_menu {
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
     text-transform: uppercase;
     font-family: "Krona one", sans-serif;
     color: white;
@@ -169,7 +172,7 @@ import CounterSkills from "../componets/counter_skills.astro";
     font-size: 90px;
     font-family: "Koulen", sans-serif;
     margin: auto;
-    line-height: 0.9  ;
+    line-height: 0.9;
   }
 
   .contenedor_menu .descripcion {
@@ -287,6 +290,13 @@ import CounterSkills from "../componets/counter_skills.astro";
     .aside_skills p {
       font-size: 20px;
     }
+
+    .contenedor_historial {
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      justify-content: center;
+      gap: 15px;
+    }
   }
 
   @media screen and (max-width: 740px) {
@@ -309,6 +319,16 @@ import CounterSkills from "../componets/counter_skills.astro";
     .contenedor_sobre_mi .descripcion {
       font-size: 20px;
     }
+
+    .aside_skills section {
+      width: 200px;
+      height: 250px;
+    }
+
+    .aside_skills picture {
+      width: 150px;
+      height: 150px;
+    }
   }
 
   @media screen and (max-width: 520px) {
@@ -322,6 +342,21 @@ import CounterSkills from "../componets/counter_skills.astro";
 
     .cv {
       font-size: 15px;
+    }
+
+    .contenedor_historial {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .aside_skills section {
+      width: 150px;
+      height: 220px;
+    }
+
+    .aside_skills picture {
+      width: 120px;
+      height: 120px;
     }
   }
 </style>

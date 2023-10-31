@@ -21,5 +21,3 @@ animateValue(trofeos, 0, 100, 3000);
 animateValue(cursos, 0, 100, 3000);
 animateValue(equipos, 0, 100, 3000);
 
-console.log("mamama")
-
