@@ -11,7 +11,7 @@ const { fotos } = Astro.props;
     fotos.map((info) => {
       return (
         <div class="card">
-            <img src= `${info.img}` alt=`Foto del ${info.team}`></img>
+            <img src= `${info.img}` alt=`Foto del ${info.team}` ></img>
             <aside >
               <p class="title">{info.team} </p>
               <p class="title">({info.date})</p>

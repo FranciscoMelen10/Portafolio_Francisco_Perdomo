@@ -22,7 +22,9 @@ const { seleccion } = Astro.props;
     <nav class="screen_ph">
       <a href="/" class=`${seleccion === 1 ? "borde" : ""}`> Home</a>
       <a href="/torneos" class=`${seleccion === 2 ? "borde" : ""}`> Torneos</a>
-      <a href="/Academia" class=`${seleccion === 3 ? "borde" : ""}`>Academia ALMA</a>
+      <a href="/Academia" class=`${seleccion === 3 ? "borde" : ""}`
+        >Academia ALMA</a
+      >
       <a href="/acerca" class=`${seleccion === 4 ? "borde" : ""}`> Acerca de</a>
 
       <a id="close">
@@ -61,12 +63,11 @@ const { seleccion } = Astro.props;
   }
 
   a {
-    text-decoration: none;
+    color: #fff;
+    font-family: "Koulen";
+    font-size: 25px;
+    font-weight: 400;
     transition: 0.5s ease-out;
-    color: white;
-    font-size: 20px;
-    font-weight: 900;
-    font-family: "Anton", sans-serif;
   }
 
   nav a:hover {
@@ -84,7 +85,7 @@ const { seleccion } = Astro.props;
   }
 
   nav a {
-    padding: 10px;
+    padding: 10px 20px;
   }
 
   .borde {

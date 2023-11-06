@@ -1,0 +1,42 @@
+---
+//Componentes
+import Principal from "../../layout/principal.astro";
+import Card_torneos from "../../componets/cards/card_torneos.astro";
+
+//JSON
+import torneos_json from "../../JSON/torneos/principal.json"
+
+---
+
+<Principal name="Torneos" seccion={2}>
+  <div>
+    {
+      torneos_json.map((info) =>{
+        return(
+        <Card_torneos 
+          nombre={info.team}
+          descripcion={info.descripcion}
+          temporada={info.date}
+          url={info.url}
+        fotos={info.img}
+    />
+        )
+      })
+    }
+  </div>
+</Principal>
+
+<style>
+  div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 40px;
+  }
+
+  @media screen and (max-width: 700px) {
+    div{
+      padding: 0 20px;
+    }
+  }
+</style>
