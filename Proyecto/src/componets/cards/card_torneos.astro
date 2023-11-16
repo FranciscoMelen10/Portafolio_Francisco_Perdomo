@@ -36,30 +36,10 @@ const { nombre, temporada, descripcion, url, fotos } = Astro.props;
   </aside>
 </section>
 
-<script>
-  const anchoPantalla = window.innerWidth;
-
-  console.log(anchoPantalla);
-  const panels = document.querySelectorAll(".panel");
-
-  panels.forEach((panel) => {
-    panel.addEventListener("click", () => {
-      removeActiveClasses();
-      panel.classList.add("active");
-    });
-  });
-
-  function removeActiveClasses() {
-    panels.forEach((panel) => {
-      panel.classList.remove("active");
-    });
-  }
-</script>
-
 <style>
   section {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
