@@ -9,8 +9,7 @@ import Carusel_pics from "../componets/carruseles/carusel_pics.astro";
 import Carususel_cursos from "../componets/carruseles/carusel_cursos.astro";
 
 //JSON
-import Pictures_json from "../JSON/principal/pictures.json";
-import Skills_json from "../JSON/principal/skills.json";
+import prinJSON from "../JSON/principal.json"
 import CounterSkills from "../componets/counter_skills.astro";
 ---
 
@@ -66,7 +65,7 @@ import CounterSkills from "../componets/counter_skills.astro";
           división, juvenil e incluso a nivel de selección nacional.
         </p>
         <section class="section_carusel">
-          <Carusel_pics fotos={Pictures_json} />
+          <Carusel_pics fotos={prinJSON.pictures} />
         </section>
       </div>
 
@@ -74,7 +73,7 @@ import CounterSkills from "../componets/counter_skills.astro";
         <Title titulo="Habilidades de trabajo" />
         <aside class="aside_skills">
           {
-            Skills_json.map((info) => {
+            prinJSON.skill.map((info) => {
               return (
                 <section>
                   <picture>

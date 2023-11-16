@@ -1,0 +1,86 @@
+[
+    {
+        "team": "Managua Sub 15",
+        "descripcion": "En el año 2016, el equipo de Managua Sub 15 logró un impresionante triunfo al coronarse campeón a nivel nacional en Nicaragua.",
+        "img": [
+            "/Managua FC/U15/2016/Torneos/1.jpg",
+            "/Managua FC/U15/2016/Torneos/2.jpg",
+            "/Managua FC/U15/2016/Torneos/3.jpg",
+            "/Managua FC/U15/2016/Torneos/4.jpg"
+        ],
+        "url": "./Managua FC/Sub 15/2016",
+        "date": "2016"
+    },
+    {
+        "team": "Managua Sub 15",
+        "descripcion": "En el año 2017, el equipo de Managua Sub 15 se destacó en el escenario del fútbol juvenil al lograr un meritorio tercer lugar a nivel nacional en Nicaragua.",
+        "img": [
+            "/Managua FC/U15/2017/Torneos/1.jpg",
+            "/Managua FC/U15/2017/Torneos/2.jpg",
+            "/Managua FC/U15/2017/Torneos/3.jpg",
+            "/Managua FC/U15/2017/Torneos/4.jpg"
+        ],
+        "url": "./Managua FC 15/2017",
+        "date": "2017"
+    },
+    {
+        "team": "Managua Sub 15",
+        "descripcion": "En el año 2018, el equipo Managua Sub 15 alcanzó un destacado segundo lugar a nivel nacional en Nicaragua, consagrándose como subcampeones del torneo.",
+        "img": [
+            "/Managua FC/U15/2018/Torneos/1.jpg",
+            "/Managua FC/U15/2018/Torneos/2.jpg",
+            "/Managua FC/U15/2018/Torneos/3.jpg",
+            "/Managua FC/U15/2018/Torneos/4.jpg"
+        ],
+        "url": "./Managua FC 15/2018",
+        "date": "2018"
+    },
+    {
+        "team": "Copa Claro Nacional",
+        "descripcion": "En 2018, la Academia de Valores ALMA se destacó como campeona de la Copa Claro Nacional en Nicaragua, asegurando así su oportunidad de representar a Nicaragua en competiciones internacionales.",
+        "img": [
+            "/Copa Claro/Nacional/Torneos/1.jpg",
+            "/Copa Claro/Nacional/Torneos/2.jpg",
+            "/Copa Claro/Nacional/Torneos/3.jpg",
+            "/Copa Claro/Nacional/Torneos/4.jpg"
+        ],
+        "url": "./Copa Claro/Nacional",
+        "date": "2018"
+    },
+    {
+        "team": "Copa Claro Internacional",
+        "descripcion": "En 2018, la Academia de Valores ALMA logró un destacado subcampeonato en la Copa Claro Internacional en Guatemala, demostrando su calidad y competitividad en el escenario internacional. ",
+        "img": [
+            "/Copa Claro/Internacional/Torneos/1.jpg",
+            "/Copa Claro/Internacional/Torneos/2.jpg",
+            "/Copa Claro/Internacional/Torneos/3.jpg",
+            "/Copa Claro/Internacional/Torneos/4.jpg"
+        ],
+        "url": "./Copa Claro/Internacional",
+        "date": "2018"
+    },
+    {
+        "team": "Managua Sub 15",
+        "descripcion": "En 2019, el equipo Managua Sub 15 se consagró campeón a nivel nacional en Nicaragua, demostrando su destreza, dominio en el campo de juego y con mucho talento juvenil.",
+        "img": [
+            "/Managua FC/U15/2019/Torneos/1.jpg",
+            "/Managua FC/U15/2019/Torneos/2.jpg",
+            "/Managua FC/U15/2019/Torneos/3.jpg",
+            "/Managua FC/U15/2019/Torneos/4.jpg"
+        ],
+        "url": "./Managua FC 15/2019",
+        "date": "2019"
+    },
+    {
+        "team": "Managua Sub 17",
+        "descripcion": "En 2021, el equipo Managua Sub 17 logró ser campeón a nivel nacional en Nicaragua, destacando que fue la primera vez que Francisco Meléndez tomó el mando en esta categoría y los condujo hacia el titulo nacional.",
+        "img": [
+            "/Managua FC/U17/2021/Torneos/1.jpg",
+            "/Managua FC/U17/2021/Torneos/2.jpg",
+            "/Managua FC/U17/2021/Torneos/3.jpg",
+            "/Managua FC/U17/2021/Torneos/4.jpg"
+        ],
+        "url": "torneos/Managua FC 15/2021",
+        "date": "2021"
+    }
+]

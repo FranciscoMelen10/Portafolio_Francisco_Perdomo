@@ -1,11 +1,11 @@
 ---
-import fotos from "../../JSON/principal/cursos.json";
+import prinJSON from "../../JSON/principal.json"
 ---
 
 <div class="swiper mySwiper">
   <div class="swiper-wrapper">
     {
-      fotos.map((info) => {
+      prinJSON.cursos.map((info) => {
         return (
           <div class="swiper-slide">
               <picture>

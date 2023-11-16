@@ -1,5 +1,5 @@
 ---
-import Skills from "../../JSON/principal/skills.json";
+import prinJSON from "../../JSON/principal.json";
 ---
 
 <swiper-container
@@ -16,7 +16,7 @@ import Skills from "../../JSON/principal/skills.json";
   coverflow-effect-slide-shadows="false"
 >
   {
-    Skills.map((info) => {
+    prinJSON.skill.map((info) => {
       return (
         <swiper-slide>
           <img src="../../../public/Proyecto/Logo Managua.png" />
