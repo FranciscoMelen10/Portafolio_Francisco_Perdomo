@@ -1,0 +1,11 @@
+---
+export function getStaticPaths() {
+  return [
+    {params: {temporada: 'Nacional'}},
+    {params: {temporada: 'Internacional'}}
+  ];
+}
+
+const { temporada } = Astro.params;
+
+---

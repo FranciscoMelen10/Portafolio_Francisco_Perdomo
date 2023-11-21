@@ -13,12 +13,12 @@ const { nombre, temporada, descripcion, url, fotos } = Astro.props;
 <section>
   <aside class="aside_descripcion">
     <article class="article_title">
-      <p class="title">{nombre}</p>
-      <p class="temporada">Temporada {temporada}</p>
+      <h1 class="title">{nombre}</h1>
+      <h2 class="temporada">Temporada {temporada}</h2>
     </article>
 
     <article>
-      <p class="logros">Logros</p>
+      <h1 class="logros">Logros</h1>
       <p class="descripcion">{descripcion}</p>
     </article>
 
@@ -59,7 +59,7 @@ const { nombre, temporada, descripcion, url, fotos } = Astro.props;
   .title {
     color: #24437a;
     font-family: "Koulen";
-    font-size: 60px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 400;
   }
@@ -67,7 +67,7 @@ const { nombre, temporada, descripcion, url, fotos } = Astro.props;
   .temporada {
     color: #24437a;
     font-family: "Krona One";
-    font-size: 30px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
   }
@@ -84,7 +84,7 @@ const { nombre, temporada, descripcion, url, fotos } = Astro.props;
     width: fit-content;
     color: #24437a;
     font-family: "Koulen";
-    font-size: 25px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 400;
     border-bottom: 5px solid yellow;
@@ -158,13 +158,18 @@ const { nombre, temporada, descripcion, url, fotos } = Astro.props;
     }
 
     .descripcion {
-      font-size: 15px;
+      font-size: 18px;
     }
 
     .temporada,
     .logros,
     .article_url a {
       font-size: 20px;
+    }
+
+    .article_url{
+      width: 200px;
+      height: 40px;
     }
 
     .aside_img {

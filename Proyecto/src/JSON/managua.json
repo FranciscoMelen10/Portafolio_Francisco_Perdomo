@@ -1,0 +1,47 @@
+[
+    {
+        "nombre": "Dixon Zeledón",
+        "cargo": "Asistente",
+        "img": "/Team/Dixon Zeledon.jpg"
+    },
+    {
+        "nombre": "Adonis Barahona",
+        "cargo": "Tecnico",
+        "img": "/Team/Adonis Barahona.jpg"
+    },
+    {
+        "nombre": "Brandoll Espinoza",
+        "cargo": "Asistente",
+        "img": "/Team/Brandoll Espinoza.jpg"
+    },
+    {
+        "nombre": "Dixi Lopez",
+        "cargo": "Asistente",
+        "img": "/Team/Dixi Lopez.jpg"
+    },
+    {
+        "nombre": "Eliet Centeno",
+        "cargo": "Psicologa",
+        "img": "/Team/Eliet Centeno.jpg"
+    },
+    {
+        "nombre": "Jairo Guitierrez",
+        "cargo": "Entrenador de Porteros",
+        "img": "/Team/Jairo Guitierrez.jpg"
+    },
+    {
+        "nombre": "Marvin Cruz",
+        "cargo": "Asistente",
+        "img": "/Team/Marvin Cruz.jpg"
+    },
+    {
+        "nombre": "Olmer Abraham",
+        "cargo": "Asistente",
+        "img": "/Team/Olmer Abraham.jpg"
+    },
+    {
+        "nombre": "Keler Aguilar",
+        "cargo": "Asistente",
+        "img": "/Team/Olmer Abraham.jpg"
+    }
+]

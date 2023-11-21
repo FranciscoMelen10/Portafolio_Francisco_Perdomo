@@ -1,0 +1,171 @@
+[
+    {
+        "Managua": {
+            "sub15": {
+                "2016": {
+                    "team": "Managua U15",
+                    "temporada": "2016",
+                    "descripcion": "",
+                    "galeria": [
+                        "/Managua FC/U15/2016/1.jpg",
+                        "/Managua FC/U15/2016/2.jpg",
+                        "/Managua FC/U15/2016/3.jpg",
+                        "/Managua FC/U15/2016/4.jpg",
+                        "/Managua FC/U15/2016/5.jpg",
+                        "/Managua FC/U15/2016/6.jpg",
+                        "/Managua FC/U15/2016/7.jpg",
+                        "/Managua FC/U15/2016/8.jpg"
+                    ],
+                    "support": [
+                        {
+                            "nombre": "Adonis Barahona",
+                            "cargo": "Tecnico",
+                            "img": "/Team/Adonis Barahona.jpg"
+                        },
+                        {
+                            "nombre": "Dixon Zeledón",
+                            "cargo": "Asistente",
+                            "img": "/Team/Dixon Zeledon.jpg"
+                        },
+                        {
+                            "nombre": "Keler Aguilar",
+                            "cargo": "Asistente",
+                            "img": "/Team/Olmer Abraham.jpg"
+                        },
+                        {
+                            "nombre": "Dixi Lopez",
+                            "cargo": "Asistente",
+                            "img": "/Team/Dixi Lopez.jpg"
+                        },
+                        {
+                            "nombre": "Eliet Centeno",
+                            "cargo": "Psicologa",
+                            "img": "/Team/Eliet Centeno.jpg"
+                        }
+                    ]
+                },
+                "2017": {
+                    "team": "Managua U15",
+                    "temporada": "2017",
+                    "descripcion": "",
+                    "galeria": [
+                        "/Managua FC/U15/2017/1.jpg",
+                        "/Managua FC/U15/2017/2.jpg",
+                        "/Managua FC/U15/2017/3.jpg",
+                        "/Managua FC/U15/2017/4.jpg",
+                        "/Managua FC/U15/2017/5.jpg",
+                        "/Managua FC/U15/2017/6.jpg",
+                        "/Managua FC/U15/2017/7.jpg",
+                        "/Managua FC/U15/2017/8.jpg"
+                    ],
+                    "support": [
+                        {
+                            "nombre": "Dixi Lopez",
+                            "cargo": "Asistente",
+                            "img": "/Team/Dixi Lopez.jpg"
+                        },
+                        {
+                            "nombre": "Eliet Centeno",
+                            "cargo": "Psicologa",
+                            "img": "/Team/Eliet Centeno.jpg"
+                        },
+                        {
+                            "nombre": "Dixon Zeledón",
+                            "cargo": "Asistente",
+                            "img": "/Team/Dixon Zeledon.jpg"
+                        },
+                        {
+                            "nombre": "Marvin Cruz",
+                            "cargo": "Asistente",
+                            "img": "/Team/Marvin Cruz.jpg"
+                        }
+                    ]
+                },
+                "2018": {
+                    "team": "Managua U15",
+                    "temporada": "2018",
+                    "descripcion": "",
+                    "galeria": [
+                        "/Managua FC/U15/2018/1.jpg",
+                        "/Managua FC/U15/2018/2.jpg",
+                        "/Managua FC/U15/2018/3.jpg",
+                        "/Managua FC/U15/2018/4.jpg",
+                        "/Managua FC/U15/2018/5.jpg",
+                        "/Managua FC/U15/2018/6.jpg",
+                        "/Managua FC/U15/2018/7.jpg",
+                        "/Managua FC/U15/2018/8.jpg"
+                    ],
+                    "support": [
+                        {
+                            "nombre": "Dixi Lopez",
+                            "cargo": "Asistente",
+                            "img": "/Team/Dixi Lopez.jpg"
+                        },
+                        {
+                            "nombre": "Eliet Centeno",
+                            "cargo": "Psicologa",
+                            "img": "/Team/Eliet Centeno.jpg"
+                        },
+                        {
+                            "nombre": "Marvin Cruz",
+                            "cargo": "Asistente",
+                            "img": "/Team/Marvin Cruz.jpg"
+                        },
+                        {
+                            "nombre": "Jairo Guitierrez",
+                            "cargo": "Entrenador de Porteros",
+                            "img": "/Team/Jairo Guitierrez.jpg"
+                        },
+                        {
+                            "nombre": "Brandoll Espinoza",
+                            "cargo": "Asistente",
+                            "img": "/Team/Brandoll Espinoza.jpg"
+                        }
+                    ]
+                },
+                "2019": {
+                    "team": "Managua U15",
+                    "temporada": "2019",
+                    "descripcion": "",
+                    "galeria": [
+                        "/Managua FC/U15/2019/1.jpg",
+                        "/Managua FC/U15/2019/2.jpg",
+                        "/Managua FC/U15/2019/3.jpg",
+                        "/Managua FC/U15/2019/4.jpg",
+                        "/Managua FC/U15/2019/5.jpg",
+                        "/Managua FC/U15/2019/6.jpg",
+                        "/Managua FC/U15/2019/7.jpg",
+                        "/Managua FC/U15/2019/8.jpg"
+                    ],
+                    "support": [
+                        {
+                            "nombre": "Dixi Lopez",
+                            "cargo": "Asistente",
+                            "img": "/Team/Dixi Lopez.jpg"
+                        },
+                        {
+                            "nombre": "Eliet Centeno",
+                            "cargo": "Psicologa",
+                            "img": "/Team/Eliet Centeno.jpg"
+                        },
+                        {
+                            "nombre": "Marvin Cruz",
+                            "cargo": "Asistente",
+                            "img": "/Team/Marvin Cruz.jpg"
+                        },
+                        {
+                            "nombre": "Brandoll Espinoza",
+                            "cargo": "Asistente",
+                            "img": "/Team/Brandoll Espinoza.jpg"
+                        }
+                    ]
+                }
+            },
+            "sub17": {}
+        },
+        "copa-claro": {
+            "sub15": {},
+            "sub17": {}
+        }
+    }
+]

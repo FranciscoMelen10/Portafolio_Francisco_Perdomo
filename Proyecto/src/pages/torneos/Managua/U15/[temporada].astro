@@ -1,0 +1,18 @@
+---
+import temaJSON from "../../../../JSON/team.json"
+
+export function getStaticPaths() {
+  return [
+    {params: {temporada: '2016'}},
+    {params: {temporada: '2017'}},
+    {params: {temporada: '2018'}},
+    {params: {temporada: '2019'}}
+  ];
+}
+
+const { temporada } = Astro.params;
+const data = temaJSON.map(info => info.Managua.sub15[temporada])
+console.log(data)
+
+
+---

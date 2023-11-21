@@ -37,8 +37,8 @@ import CounterSkills from "../componets/counter_skills.astro";
         <Header seleccion={1} />
         <aside class="contenedor_menu">
           <section>
-            <p class="title">Francisco Melendez</p>
-            <p class="descripcion">Entrenador de futbol</p>
+            <h1 class="title">Francisco Melendez</h1>
+            <h2 class="descripcion">Entrenador de futbol</h2>
             <a
               class="cv"
               href="https://drive.google.com/file/d/1WKUMR-cxLW8BCqi34t6jKfy_9_ddjMKi/view?usp=sharing"
@@ -65,10 +65,10 @@ import CounterSkills from "../componets/counter_skills.astro";
           división, juvenil e incluso a nivel de selección nacional.
         </p>
         <section class="section_carusel">
-          <Carusel_pics fotos={prinJSON.pictures} />
+          <Carusel_pics fotos={prinJSON.pictures} effectHover={true}/>
         </section>
       </div>
-
+<!-- 
       <div class="contenedor_sobre_mi">
         <Title titulo="Habilidades de trabajo" />
         <aside class="aside_skills">
@@ -88,7 +88,7 @@ import CounterSkills from "../componets/counter_skills.astro";
             })
           }
         </aside>
-      </div>
+      </div> -->
 
       <div>
         <Title titulo="Cursos" />
@@ -191,9 +191,12 @@ import CounterSkills from "../componets/counter_skills.astro";
     font-family: "Krona one", sans-serif;
   }
 
-  .contenedor_menu section p,
-  .cv {
+  .contenedor_menu section h1, .contenedor_menu section h2{
     margin: 10px 0;
+  }
+
+  .cv {
+    margin: 30px 0;
   }
 
   .contenedor_sobre_mi .descripcion {
@@ -208,6 +211,7 @@ import CounterSkills from "../componets/counter_skills.astro";
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    justify-items: start;
   }
 
   /* Seccion de habilidades */
@@ -343,11 +347,6 @@ import CounterSkills from "../componets/counter_skills.astro";
       font-size: 15px;
     }
 
-    .contenedor_historial {
-      display: flex;
-      flex-direction: column;
-    }
-
     .aside_skills section {
       width: 150px;
       height: 220px;
@@ -356,6 +355,14 @@ import CounterSkills from "../componets/counter_skills.astro";
     .aside_skills picture {
       width: 120px;
       height: 120px;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .contenedor_historial {
+      grid-template-columns: repeat(1, auto);
+      grid-template-rows: repeat(1, auto);
+
     }
   }
 </style>

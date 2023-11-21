@@ -8,7 +8,7 @@
             "/Managua FC/U15/2016/Torneos/3.jpg",
             "/Managua FC/U15/2016/Torneos/4.jpg"
         ],
-        "url": "./Managua FC/Sub 15/2016",
+        "url": "./torneos/Managua/U15/2016",
         "date": "2016"
     },
     {
@@ -20,7 +20,7 @@
             "/Managua FC/U15/2017/Torneos/3.jpg",
             "/Managua FC/U15/2017/Torneos/4.jpg"
         ],
-        "url": "./Managua FC 15/2017",
+        "url": "./Managua/U15/2017",
         "date": "2017"
     },
     {
@@ -32,7 +32,7 @@
             "/Managua FC/U15/2018/Torneos/3.jpg",
             "/Managua FC/U15/2018/Torneos/4.jpg"
         ],
-        "url": "./Managua FC 15/2018",
+        "url": "./Managua/U15/2018",
         "date": "2018"
     },
     {
@@ -68,7 +68,7 @@
             "/Managua FC/U15/2019/Torneos/3.jpg",
             "/Managua FC/U15/2019/Torneos/4.jpg"
         ],
-        "url": "./Managua FC 15/2019",
+        "url": "./Managua/U15/2019",
         "date": "2019"
     },
     {
@@ -80,7 +80,7 @@
             "/Managua FC/U17/2021/Torneos/3.jpg",
             "/Managua FC/U17/2021/Torneos/4.jpg"
         ],
-        "url": "torneos/Managua FC 15/2021",
+        "url": "/Managua/U17/2021",
         "date": "2021"
     }
 ]
