@@ -1,6 +1,12 @@
 ---
+interface Foto {
+  img: string;
+  team: string;
+  date: string;
+}
+
 interface Props {
-  fotos: object;
+  fotos: Foto[];
   effectHover: boolean;
 }
 
@@ -12,7 +18,7 @@ const { fotos, effectHover } = Astro.props;
     fotos.map((info) => {
       return (
         <div class="card" id={effectHover ? "effectHover" : ""}>
-            <img src= `${info.img}` alt=`Foto del ${info.team}` ></img>
+            <img src= `${info.img}` ></img>
             {
               effectHover ? (<aside>
               <p class="title">{info.team} </p>
@@ -32,7 +38,7 @@ section {
     grid-template-columns: repeat(4, 300px);
     grid-template-rows: repeat(2, 300px);
     gap: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
   img {
@@ -100,6 +106,7 @@ section {
     section{
       grid-template-columns: repeat(1, 1fr);
       grid-template-rows: repeat(8, 1fr);
+      margin-top: 10px;
     }
   }
 

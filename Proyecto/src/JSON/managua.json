@@ -43,5 +43,10 @@
         "nombre": "Keler Aguilar",
         "cargo": "Asistente",
         "img": "/Team/Olmer Abraham.jpg"
+    },
+    {
+        "nombre": "Víctor Tseng",
+        "cargo": "Asistente técnico",
+        "img": "/Team/Víctor Tseng.jpg"
     }
 ]

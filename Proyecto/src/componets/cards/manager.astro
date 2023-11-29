@@ -1,0 +1,111 @@
+---
+interface Foto {
+  img: string;
+  nombre: string;
+  cargo: string;
+}
+
+interface Props {
+  fotos: Foto[];
+}
+
+const { fotos } = Astro.props;
+---
+
+<div>
+    {
+        fotos.map((data) => {
+            return(
+            <section>
+                <article class="card">                
+                    <img src= `${data.img}` ></img>
+                    <aside>
+                        <p class="title">{data.nombre} </p>
+                    </aside></article>
+                <p class="name">{data.cargo}</p>
+            </section>
+            )
+        })
+    }
+</div>
+
+<style>
+    div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+  .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 20px;
+    border: 5px solid #24437A;
+}
+
+  .card:hover img{
+    opacity: 0.3;
+  }
+
+  .card:hover {
+    background: rgb(36, 62, 122);
+    border-radius: 100%;
+  }
+
+  img {
+    width: 100%; 
+    height: 100%;
+    transition: 0.5s;
+    color: white;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+
+  aside{
+    display: none;
+    transition: all 0.8s;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+
+  }
+
+  .card:hover aside {
+    display: block;
+    position: absolute; 
+    z-index: 1;
+    cursor: default;
+  }
+
+  .title{
+    font-family: 'Koulen', sans-serif;
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .name{
+    color: #24437A;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top:20px ;
+  }
+
+  @media screen and (max-width: 780px) {
+    .card{
+
+    }
+  }
+</style>

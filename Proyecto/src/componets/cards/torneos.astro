@@ -1,0 +1,180 @@
+---
+interface Props {
+  nombre: string;
+  temporada: string;
+  descripcion: string;
+  url: string;
+  fotos: string[];
+}
+
+const { nombre, temporada, descripcion, url, fotos } = Astro.props;
+---
+
+<section>
+  <aside class="aside_descripcion">
+    <article class="article_title">
+      <h1 class="title">{nombre}</h1>
+      <h2 class="temporada">Temporada {temporada}</h2>
+    </article>
+
+    <article>
+      <h1 class="logros">Logros</h1>
+      <p class="descripcion">{descripcion}</p>
+    </article>
+
+    <article class="article_url">
+      <a href={url}> Mas Informacion</a>
+    </article>
+  </aside>
+
+  <aside class="aside_img">
+    {
+      fotos.map((info) => {
+        return <img src={info} />;
+      })
+    }
+  </aside>
+</section>
+
+<style>
+  section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+  }
+
+  .aside_descripcion {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-right: 20px;
+    max-height: 720px;
+  }
+
+  .title {
+    color: #24437a;
+    font-family: "Koulen";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .temporada {
+    color: #24437a;
+    font-family: "Krona One";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .descripcion {
+    color: #24437a;
+    font-family: "Inter";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .logros {
+    width: fit-content;
+    color: #24437a;
+    font-family: "Koulen";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    border-bottom: 5px solid yellow;
+    margin-bottom: 10px;
+  }
+
+  .aside_img {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+  }
+
+  img {
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+
+  .article_url {
+    border-radius: 20px;
+    background: #24437a;
+    width: 250px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .article_url a {
+    color: #fff;
+    font-family: "Koulen";
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  @media screen and (max-width: 1100px) {
+    section {
+      height: auto;
+      flex-direction: column;
+      height: auto;
+      margin: 20px 0;
+
+    }
+
+    .aside_descripcion {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    .aside_img {
+      width: 100%;
+    }
+
+    article {
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    .aside_img {
+      grid-template-columns: repeat(2, auto);
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .title {
+      font-size: 50px;
+    }
+
+    .descripcion {
+      font-size: 18px;
+    }
+
+    .temporada,
+    .logros,
+    .article_url a {
+      font-size: 20px;
+    }
+
+    .article_url{
+      width: 200px;
+      height: 40px;
+    }
+
+    .aside_img {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+</style>

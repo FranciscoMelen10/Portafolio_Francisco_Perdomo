@@ -5,16 +5,39 @@
                 "2016": {
                     "team": "Managua U15",
                     "temporada": "2016",
-                    "descripcion": "",
+                    "descripcion": [
+                        "En el año 2016, el Managua FC Sub 15 dejó una huella imborrable al consagrarse como campeón en la primera edición de la Copa Sandino, un prestigioso campeonato a nivel nacional en Nicaragua. Este logro no solo resaltó la destreza y determinación del equipo, sino también la calidad de su plantilla. Managua no solo se llevó el título, sino que también alzó la distinción de contar con el jugador más goleador del torneo, destacando su capacidad ofensiva y habilidades excepcionales en el campo.",
+                        "El éxito del Managua FC no solo se atribuyó a su destreza futbolística, sino también a la fortaleza y garra que caracterizaban al equipo. En ese tiempo, Francisco Meléndez desempeñó un papel como asistente de Adonis Barahona, contribuyendo a la cohesión y estrategia del equipo. Además, contaron con un sólido equipo de apoyo, donde figuras como Keler Aguilar, Dixon Zeledón, Dixi López y Eliet Centeno, desempeñando roles clave como psicólogos y asistentes, respaldaron el camino hacia la victoria del Managua FC Sub 15, cimentando así su lugar en la historia del fútbol juvenil nicaragüense.",
+                        "Hoy en día, el legado del Managua FC Sub 15 perdura con la notable proyección de sus antiguos jugadores. Varios de ellos han escalado a las filas de la primera división del país, llevando consigo la experiencia y habilidades adquiridas durante su destacada participación en la Copa Sandino. Muchos de estos jugadores se han convertido en piezas fundamentales para la selección nacional, contribuyendo al crecimiento y la excelencia del fútbol nicaragüense en el ámbito internacional.",
+                        "El Managua FC Sub15, cuya historia comenzó en la conquista de la Copa Sandino, continúa dejando una marca indeleble en el panorama futbolístico, marcando el inicio de carreras exitosas y consolidándose como una cantera de talento inigualable."
+                    ],
+                    "background": "/Managua FC/U15/2016/background.jpg",
+                    "resultado": "Campeon",
                     "galeria": [
-                        "/Managua FC/U15/2016/1.jpg",
-                        "/Managua FC/U15/2016/2.jpg",
-                        "/Managua FC/U15/2016/3.jpg",
-                        "/Managua FC/U15/2016/4.jpg",
-                        "/Managua FC/U15/2016/5.jpg",
-                        "/Managua FC/U15/2016/6.jpg",
-                        "/Managua FC/U15/2016/7.jpg",
-                        "/Managua FC/U15/2016/8.jpg"
+                        {
+                            "img": "/Managua FC/U15/2016/1.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2016/2.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2016/3.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2016/4.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2016/5.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2016/6.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2016/7.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2016/8.jpg"
+                        }
                     ],
                     "support": [
                         {
@@ -23,18 +46,18 @@
                             "img": "/Team/Adonis Barahona.jpg"
                         },
                         {
-                            "nombre": "Dixon Zeledón",
-                            "cargo": "Asistente",
+                            "nombre": "Dixon Zeledon",
+                            "cargo": "Asistente técnico",
                             "img": "/Team/Dixon Zeledon.jpg"
                         },
                         {
                             "nombre": "Keler Aguilar",
-                            "cargo": "Asistente",
-                            "img": "/Team/Olmer Abraham.jpg"
+                            "cargo": "Psicologo",
+                            "img": "/Team/Keler Aguilar.jpg"
                         },
                         {
                             "nombre": "Dixi Lopez",
-                            "cargo": "Asistente",
+                            "cargo": "Asistente técnico",
                             "img": "/Team/Dixi Lopez.jpg"
                         },
                         {
@@ -47,21 +70,43 @@
                 "2017": {
                     "team": "Managua U15",
                     "temporada": "2017",
-                    "descripcion": "",
+                    "descripcion": [
+                        "En el año 2017, el Managua FC Sub 15 alcanzó un destacado tercer lugar en la Copa Sandino, consolidándose como un equipo competitivo en el escenario nacional. Este logro marcó el inicio de una nueva etapa para Francisco Meléndez, quien experimentó su primer campeonato como técnico dejando un gran futuro en su carrera como tecnico en las categorias menores. El equipo se distinguió por su solidez en todas las líneas: defensas impenetrables, porteros habilidosos, mediocampistas entregados y delanteros de calidad, formando una unidad equilibrada y apasionada en cada encuentro.",
+                        "En esta temporada el equipo se enfrento en semifinales al campeón de esa temporada, el Real Estelí. El Managua FC no solo les dio una gran pelea, sino que dejó una huella en la memoria de los aficionados. Con empates de 1-1 en ambos partidos (Ida y vuelta) y llevando la serie a la tanda de penales. Este enfrentamiento, lastimosamente el equipo no logró avanzar a la final, pero demostró tenacidad, determinación, calidad y competitividad, quedándose a las puertas de la final.",
+                        "A pesar de la derrota, el impacto positivo del equipo se reflejó en las oportunidades que brindó a sus jugadores. Algunos tuvieron la ocasión de debutar en la primera división nacional, otros se integraron al equipo juvenil de la capital y varios fueron convocados a la selección nacional, consolidando el papel del Managua FC como una cantera de talento en constante ascenso y contribuyendo al desarrollo del fútbol juvenil en Nicaragua. Con un cuerpo técnico comprometido, que incluía a Dixi Lopez, Eliet Centeno, Dixon Zeledón, Marvin Cruz y Brandoll Espinoza, el equipo forjó no solo resultados notables, sino también el crecimiento individual y colectivo de sus jugadores."
+                    ],
+                    "background": "/Managua FC/U15/2017/background.jpg",
+                    "resultado": "Tercer Lugar",
                     "galeria": [
-                        "/Managua FC/U15/2017/1.jpg",
-                        "/Managua FC/U15/2017/2.jpg",
-                        "/Managua FC/U15/2017/3.jpg",
-                        "/Managua FC/U15/2017/4.jpg",
-                        "/Managua FC/U15/2017/5.jpg",
-                        "/Managua FC/U15/2017/6.jpg",
-                        "/Managua FC/U15/2017/7.jpg",
-                        "/Managua FC/U15/2017/8.jpg"
+                        {
+                            "img": "/Managua FC/U15/2017/1.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2017/2.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2017/3.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2017/4.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2017/5.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2017/6.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2017/7.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2017/8.jpg"
+                        }
                     ],
                     "support": [
                         {
                             "nombre": "Dixi Lopez",
-                            "cargo": "Asistente",
+                            "cargo": "Asistente técnico",
                             "img": "/Team/Dixi Lopez.jpg"
                         },
                         {
@@ -70,35 +115,68 @@
                             "img": "/Team/Eliet Centeno.jpg"
                         },
                         {
-                            "nombre": "Dixon Zeledón",
-                            "cargo": "Asistente",
+                            "nombre": "Dixon Zeledon",
+                            "cargo": "Asistente técnico",
                             "img": "/Team/Dixon Zeledon.jpg"
                         },
                         {
                             "nombre": "Marvin Cruz",
-                            "cargo": "Asistente",
+                            "cargo": "Asistente técnico",
                             "img": "/Team/Marvin Cruz.jpg"
+                        },
+                        {
+                            "nombre": "Keler Aguilar",
+                            "cargo": "Asistente",
+                            "img": "/Team/Olmer Abraham.jpg"
+                        },
+                        {
+                            "nombre": "Brandoll Espinoza",
+                            "cargo": "Asistente técnico",
+                            "img": "/Team/Brandoll Espinoza.jpg"
                         }
                     ]
                 },
                 "2018": {
                     "team": "Managua U15",
                     "temporada": "2018",
-                    "descripcion": "",
+                    "descripcion": [
+                        "En el año 2018, el Managua FC Sub 15 vivió una emocionante temporada al alcanzar la final de la Copa Sandino, consolidándose como un equipo destacado a nivel nacional en Nicaragua. Esta fue la segunda final para Francisco Meléndez, el técnico que lideraba con pasión y dedicación. A pesar de un enfrentamiento reñido que terminó en empate 1-1 y se definió en una tanda de penales, el equipo se quedó a las puertas del título, sufriendo una derrota ante el Diriangén. Aunque la victoria no fue alcanzada, esta experiencia fortaleció al técnico Meléndez, brindándole valiosas lecciones que se convertirían en herramientas clave para los próximos torneos.",
+                        "El cuerpo técnico, conformado por figuras como Dixi Lopez, Eliet Centeno, Marvin Cruz, Jairo Gutiérrez y Brandoll Espinoza, desempeñó un papel esencial en el respaldo al equipo, proporcionando la orientación y el apoyo necesarios en cada paso del camino. La colaboración de este talentoso grupo no solo se tradujo en resultados notables, sino también en el desarrollo integral de los jugadores, cimentando las bases para futuros éxitos.",
+                        "El Managua FC Sub 15 se destacó por la calidad y versatilidad de sus jugadores, quienes poseían una técnica depurada, un golpeo preciso del balón, rapidez y habilidades excepcionales. En cada partido, estos jóvenes futbolistas demostraban un compromiso inquebrantable, poniendo alma y corazón en el terreno de juego, lo que contribuyó significativamente al rendimiento del equipo y dejó una marca en la memoria de los aficionados.",
+                        "La huella del Managua FC no se limitó al campo de juego, ya que varios de sus jugadores tuvieron la oportunidad de integrarse al equipo juvenil de la capital y, de manera aún más destacada, algunos fueron convocados a la selección nacional. Este éxito individual subraya el papel esencial del Managua FC Sub 15 como cantera de talento, contribuyendo al crecimiento y la prominencia de jóvenes futbolistas nicaragüenses en el ámbito nacional e internacional."
+                    ],
+                    "background": "/Managua FC/U15/2018/background.jpg",
+                    "resultado": "Sub Campeon",
                     "galeria": [
-                        "/Managua FC/U15/2018/1.jpg",
-                        "/Managua FC/U15/2018/2.jpg",
-                        "/Managua FC/U15/2018/3.jpg",
-                        "/Managua FC/U15/2018/4.jpg",
-                        "/Managua FC/U15/2018/5.jpg",
-                        "/Managua FC/U15/2018/6.jpg",
-                        "/Managua FC/U15/2018/7.jpg",
-                        "/Managua FC/U15/2018/8.jpg"
+                        {
+                            "img": "/Managua FC/U15/2018/1.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2018/2.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2018/3.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2018/4.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2018/5.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2018/6.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2018/7.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2018/8.jpg"
+                        }
                     ],
                     "support": [
                         {
                             "nombre": "Dixi Lopez",
-                            "cargo": "Asistente",
+                            "cargo": "Asistente técnico",
                             "img": "/Team/Dixi Lopez.jpg"
                         },
                         {
@@ -108,7 +186,7 @@
                         },
                         {
                             "nombre": "Marvin Cruz",
-                            "cargo": "Asistente",
+                            "cargo": "Asistente técnico",
                             "img": "/Team/Marvin Cruz.jpg"
                         },
                         {
@@ -118,7 +196,7 @@
                         },
                         {
                             "nombre": "Brandoll Espinoza",
-                            "cargo": "Asistente",
+                            "cargo": "Asistente técnico",
                             "img": "/Team/Brandoll Espinoza.jpg"
                         }
                     ]
@@ -126,21 +204,44 @@
                 "2019": {
                     "team": "Managua U15",
                     "temporada": "2019",
-                    "descripcion": "",
+                    "descripcion": [
+                        "En el año 2019, el Managua FC Sub 15 escribió un capítulo dorado en su historia al coronarse campeón de la Copa Sandino, el prestigioso campeonato a nivel nacional en Nicaragua. Esta victoria marcó la tercera final para Francisco Meléndez, quien guió al equipo hacia el éxito con astucia y determinación. En una final el Diriangén, el Managua FC demostró su dominio al vencer 4-0 en el partido de ida, estableciendo una ventaja abrumadora en la casa del oponente. En el partido de vuelta, aunque el marcador fue un empate 1-1, el global fue de 5-1 a favor del Managua FC, sellando su merecido título y consolidándose como campeones indiscutibles.",
+                        "El cuerpo técnico, encabezado por figuras como Dixi Lopez, Eliet Centeno, Marvin Cruz, Jairo Gutiérrez y Brandoll Espinoza, desempeñó un papel vital en el éxito del equipo, proporcionando la dirección estratégica y el apoyo necesario en cada fase del torneo. Esta colaboración destacada no solo resaltó la capacidad técnica del equipo, sino también la importancia del liderazgo cohesionado en el camino hacia el campeonato.",
+                        "El Managua FC Sub 15 se destacó no solo por su victoria general, sino también por el rendimiento excepcional de sus jugadores. Contando con el goleador del torneo, extremos hábiles, defensas tenaces y mediocampistas creativos, el equipo exhibió una combinación única de talento individual y juego de equipo efectivo. Esta diversidad de habilidades contribuyó a la solidez y versatilidad del equipo, creando una sinergia que fue clave en su triunfo.",
+                        "El impacto del Managua FC no se limitó al ámbito local, ya que varios de sus jugadores tuvieron la oportunidad de avanzar en sus carreras. Desde integrarse al equipo juvenil de la capital hasta dar el salto a la primera división, e incluso siendo convocados a la selección nacional, estos jóvenes futbolistas continuaron su ascenso en el panorama del fútbol nicaragüense, subrayando el papel del Managua FC Sub 15 como cantera de talento y vivero de futuras estrellas."
+                    ],
+                    "background": "/Managua FC/U15/2019/background.jpg",
+                    "resultado": "Campeon",
                     "galeria": [
-                        "/Managua FC/U15/2019/1.jpg",
-                        "/Managua FC/U15/2019/2.jpg",
-                        "/Managua FC/U15/2019/3.jpg",
-                        "/Managua FC/U15/2019/4.jpg",
-                        "/Managua FC/U15/2019/5.jpg",
-                        "/Managua FC/U15/2019/6.jpg",
-                        "/Managua FC/U15/2019/7.jpg",
-                        "/Managua FC/U15/2019/8.jpg"
+                        {
+                            "img": "/Managua FC/U15/2019/1.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2019/2.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2019/3.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2019/4.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2019/5.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2019/6.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2019/7.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2019/8.jpg"
+                        }
                     ],
                     "support": [
                         {
                             "nombre": "Dixi Lopez",
-                            "cargo": "Asistente",
+                            "cargo": "Asistente técnico",
                             "img": "/Team/Dixi Lopez.jpg"
                         },
                         {
@@ -150,22 +251,346 @@
                         },
                         {
                             "nombre": "Marvin Cruz",
-                            "cargo": "Asistente",
+                            "cargo": "Asistente técnico",
                             "img": "/Team/Marvin Cruz.jpg"
                         },
                         {
                             "nombre": "Brandoll Espinoza",
-                            "cargo": "Asistente",
+                            "cargo": "Asistente técnico",
                             "img": "/Team/Brandoll Espinoza.jpg"
+                        },
+                        {
+                            "nombre": "Keler Aguilar",
+                            "cargo": "Asistente",
+                            "img": "/Team/Olmer Abraham.jpg"
+                        },
+                        {
+                            "nombre": "Olmer Abraham",
+                            "cargo": "Asistente",
+                            "img": "/Team/Olmer Abraham.jpg"
                         }
                     ]
                 }
             },
-            "sub17": {}
+            "sub17": {
+                "2021": {
+                    "team": "Managua U17",
+                    "temporada": "2021",
+                    "descripcion": [
+                        "",
+                        "",
+                        "",
+                        ""
+                    ],
+                    "background": "/Managua FC/U17/2021/background.jpg",
+                    "resultado": "Campeon",
+                    "galeria": [
+                        {
+                            "img": "/Managua FC/U15/2021/1.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2021/2.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2021/3.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2021/4.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2021/5.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2021/6.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2021/7.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2021/8.jpg"
+                        }
+                    ],
+                    "support": [
+                        {
+                            "nombre": "Dixi Lopez",
+                            "cargo": "Asistente técnico",
+                            "img": "/Team/Dixi Lopez.jpg"
+                        },
+                        {
+                            "nombre": "Eliet Centeno",
+                            "cargo": "Psicologa",
+                            "img": "/Team/Eliet Centeno.jpg"
+                        },
+                        {
+                            "nombre": "Marvin Cruz",
+                            "cargo": "Asistente técnico",
+                            "img": "/Team/Marvin Cruz.jpg"
+                        },
+                        {
+                            "nombre": "Brandoll Espinoza",
+                            "cargo": "Asistente técnico",
+                            "img": "/Team/Brandoll Espinoza.jpg"
+                        },
+                        {
+                            "nombre": "Olmer Abraham",
+                            "cargo": "Asistente",
+                            "img": "/Team/Olmer Abraham.jpg"
+                        },
+                        {
+                            "nombre": "Keler Aguilar",
+                            "cargo": "Asistente",
+                            "img": "/Team/Olmer Abraham.jpg"
+                        },
+                        {
+                            "nombre": "Víctor Tseng",
+                            "cargo": "Asistente técnico",
+                            "img": "/Team/Víctor Tseng.jpg"
+                        }
+                    ]
+                },
+                "2022": {
+                    "team": "Managua U17",
+                    "temporada": "2022",
+                    "descripcion": "",
+                    "background": "/Managua FC/U15/2022/background.jpg",
+                    "resultado": "",
+                    "galeria": [
+                        {
+                            "img": "/Managua FC/U15/2022/1.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2022/2.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2022/3.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2022/4.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2022/5.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2022/6.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2022/7.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U15/2022/8.jpg"
+                        }
+                    ],
+                    "support": [
+                        {
+                            "nombre": "Dixi Lopez",
+                            "cargo": "Asistente técnico",
+                            "img": "/Team/Dixi Lopez.jpg"
+                        },
+                        {
+                            "nombre": "Eliet Centeno",
+                            "cargo": "Psicologa",
+                            "img": "/Team/Eliet Centeno.jpg"
+                        },
+                        {
+                            "nombre": "Brandoll Espinoza",
+                            "cargo": "Asistente técnico",
+                            "img": "/Team/Brandoll Espinoza.jpg"
+                        },
+                        {
+                            "nombre": "Olmer Abraham",
+                            "cargo": "Asistente",
+                            "img": "/Team/Olmer Abraham.jpg"
+                        },
+                        {
+                            "nombre": "Víctor Tseng",
+                            "cargo": "Asistente técnico",
+                            "img": "/Team/Víctor Tseng.jpg"
+                        }
+                    ]
+                },
+                "2023": {
+                    "team": "Managua U17",
+                    "temporada": "2023",
+                    "descripcion": "",
+                    "background": "/Managua FC/U17/2023/background.jpg",
+                    "resultado": "Tercer Lugar",
+                    "galeria": [
+                        {
+                            "img": "/Managua FC/U17/2023/1.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U17/2023/2.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U17/2023/3.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U17/2023/4.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U17/2023/5.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U17/2023/6.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U17/2023/7.jpg"
+                        },
+                        {
+                            "img": "/Managua FC/U17/2023/8.jpg"
+                        }
+                    ],
+                    "support": [
+                        {
+                            "nombre": "Eliet Centeno",
+                            "cargo": "Psicologa",
+                            "img": "/Team/Eliet Centeno.jpg"
+                        },
+                        {
+                            "nombre": "Olmer Abraham",
+                            "cargo": "Asistente",
+                            "img": "/Team/Olmer Abraham.jpg"
+                        },
+                        {
+                            "nombre": "Víctor Tseng",
+                            "cargo": "Asistente técnico",
+                            "img": "/Team/Víctor Tseng.jpg"
+                        }
+                    ]
+                }
+            }
         },
         "copa-claro": {
-            "sub15": {},
-            "sub17": {}
+            "nacional": {
+                "team": "Copa Claro Nacional",
+                "temporada": "2018",
+                "descripcion": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "background": "/Copa Claro/Nacional/background.jpg",
+                "resultado": "Campeon",
+                "galeria": [
+                    {
+                        "img": "/Copa Claro/Nacional/1.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Nacional/2.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Nacional/3.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Nacional/4.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Nacional/5.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Nacional/6.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Nacional/7.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Nacional/8.jpg"
+                    }
+                ],
+                "support": [
+                    {
+                        "nombre": "Humberto Guillen",
+                        "cargo": "Asistente técnico",
+                        "img": "/Team/Humberto Guillen.jpg"
+                    },
+                    {
+                        "nombre": "Dixi Lopez",
+                        "cargo": "Asistente técnico",
+                        "img": "/Team/Dixi Lopez.jpg"
+                    },
+                    {
+                        "nombre": "Eliet Centeno",
+                        "cargo": "Psicologa",
+                        "img": "/Team/Eliet Centeno.jpg"
+                    },
+                    {
+                        "nombre": "Marvin Cruz",
+                        "cargo": "Asistente técnico",
+                        "img": "/Team/Marvin Cruz.jpg"
+                    },
+                    {
+                        "nombre": "Brandoll Espinoza",
+                        "cargo": "Asistente técnico",
+                        "img": "/Team/Brandoll Espinoza.jpg"
+                    }
+                ]
+            },
+            "internacional": {
+                "team": "Copa Claro Internacional",
+                "temporada": "2018",
+                "descripcion": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "background": "/Copa Claro/Internacional/background.jpg",
+                "resultado": "Sub Campeon",
+                "galeria": [
+                    {
+                        "img": "/Copa Claro/Internacional/1.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Internacional/2.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Internacional/3.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Internacional/4.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Internacional/5.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Internacional/6.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Internacional/7.jpg"
+                    },
+                    {
+                        "img": "/Copa Claro/Internacional/8.jpg"
+                    }
+                ],
+                "support": [
+                    {
+                        "nombre": "Humberto Guillen",
+                        "cargo": "Asistente técnico",
+                        "img": "/Team/Humberto Guillen.jpg"
+                    },
+                    {
+                        "nombre": "Dixi Lopez",
+                        "cargo": "Asistente técnico",
+                        "img": "/Team/Dixi Lopez.jpg"
+                    },
+                    {
+                        "nombre": "Eliet Centeno",
+                        "cargo": "Psicologa",
+                        "img": "/Team/Eliet Centeno.jpg"
+                    },
+                    {
+                        "nombre": "Marvin Cruz",
+                        "cargo": "Asistente técnico",
+                        "img": "/Team/Marvin Cruz.jpg"
+                    },
+                    {
+                        "nombre": "Brandoll Espinoza",
+                        "cargo": "Asistente técnico",
+                        "img": "/Team/Brandoll Espinoza.jpg"
+                    }
+                ]
+            }
         }
     }
 ]

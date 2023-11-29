@@ -7,7 +7,7 @@ const { seleccion } = Astro.props;
 ---
 
 <header>
-  <img src="../../public/Proyecto/Logo.png" alt="Logo" />
+  <img src="/Proyecto/Logo.png" alt="Logo" />
   <div>
     <a id="hambuerguesa" class="icon_hambuerguesa">
       <svg
@@ -20,12 +20,17 @@ const { seleccion } = Astro.props;
       >
     </a>
     <nav class="screen_ph">
-      <a href="/" class=`${seleccion === 1 ? "borde" : ""}`> Home</a>
-      <a href="/torneos" class=`${seleccion === 2 ? "borde" : ""}`> Torneos</a>
-      <a href="/Academia" class=`${seleccion === 3 ? "borde" : ""}`
-        >Academia ALMA</a
+      <a href="/"><span class=`${seleccion === 1 ? "borde" : ""}`>Home</span></a
       >
-      <a href="/acerca" class=`${seleccion === 4 ? "borde" : ""}`> Acerca de</a>
+      <a href="/Torneos"
+        ><span class=`${seleccion === 2 ? "borde" : ""}`>Torneos</span>
+      </a>
+      <a href="/Academia"
+        ><span class=`${seleccion === 3 ? "borde" : ""}`>Academia ALMA</span></a
+      >
+      <a href="/acerca"
+        ><span class=`${seleccion === 4 ? "borde" : ""}`>Acerca de</span></a
+      >
 
       <a id="close">
         <svg
