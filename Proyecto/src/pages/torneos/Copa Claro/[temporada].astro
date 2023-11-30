@@ -1,4 +1,8 @@
 ---
+import temaJSON from "../../../JSON/team.json";
+import TorneosLy from "../../../layout/torneosLy.astro";
+
+
 export function getStaticPaths() {
   return [
     {params: {temporada: 'Nacional'}},
@@ -8,4 +12,13 @@ export function getStaticPaths() {
 
 const { temporada } = Astro.params;
 
+// Consumir el json
+const aux = temaJSON.map((info) => info.copaClaro[temporada]);
+
+// Trabajar de una forma más limpia
+const data = aux[0];
 ---
+
+{/*  Se encuentra en la carpeta de src/Layout */}
+<TorneosLy data={data}></TorneosLy>
+

@@ -1,6 +1,6 @@
 ---
 import temaJSON from "../../../../JSON/team.json";
-import Principal from "../../../../layout/principal.astro";
+import TorneosLy from "../../../../layout/torneosLy.astro";
 
 export function getStaticPaths() {
   return [
@@ -18,4 +18,5 @@ const aux = temaJSON.map((info) => info.Managua.sub17[temporada]);
 const data = aux[0];
 ---
 
-<Principal name={data.team + " - " + data.temporada} seccion={2} />
+{/*  Se encuentra en la carpeta de src/Layout */}
+<TorneosLy data={data}></TorneosLy>

@@ -1,12 +1,12 @@
 ---
-interface Foto {
-  img: string;
-  nombre: string;
-  cargo: string;
+interface supp{
+  cargo:string;
+  img:string;
+  nombre:string;
 }
 
 interface Props {
-  fotos: Foto[];
+  fotos: supp[];
 }
 
 const { fotos } = Astro.props;
@@ -18,7 +18,7 @@ const { fotos } = Astro.props;
             return(
             <section>
                 <article class="card">                
-                    <img src= `${data.img}` ></img>
+                    <img src={data.img} ></img>
                     <aside>
                         <p class="title">{data.nombre} </p>
                     </aside></article>
