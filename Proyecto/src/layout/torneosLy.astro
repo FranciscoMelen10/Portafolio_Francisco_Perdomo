@@ -1,14 +1,14 @@
 ---
-import Manager from "../componets/cards/manager.astro";
-import Title from "../componets/title.astro";
+import Manager from "../components/cards/manager.astro";
+import Title from "../components/title.astro";
 import Principal from "./principal.astro";
-import Carusel_pics from "../componets/carruseles/carusel_pics.astro";
+import Carusel_pics from "../components/carruseles/crs_pics.astro";
 
-// Compañeros de equipo 
-interface Supp{
-  cargo:string;
-  img:string;
-  nombre:string;
+// Compañeros de equipo
+interface Supp {
+  cargo: string;
+  img: string;
+  nombre: string;
 }
 
 // Carrusel con fotos del equipo
@@ -59,7 +59,7 @@ const { data } = Astro.props;
 
   <div class="contenedor_team contenedor">
     <Title titulo="Cuerpo Tecnico" />
-    <Manager fotos={data.support}/>
+    <Manager fotos={data.support} />
   </div>
   <div class="contenedor_galeria contenedor">
     <Title titulo="Galeria" />

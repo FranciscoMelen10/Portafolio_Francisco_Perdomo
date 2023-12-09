@@ -1,106 +1,105 @@
-
-    {
-        "cursos": [
-            {
-                "img": "../../../public/Proyecto/svg/Seminario.svg",
-                "title": "Seminario para Tecnicos",
-                "descripcion": "Realizado en Carazo por la Federación Nicaragüense de Futbol (FENIFUT)",
-                "tipo": "Seminario",
-                "date": "2015"
-            },
-            {
-                "img": "../../../public/Proyecto/svg/diploma.svg",
-                "title": "Implementacion de Escuelas de Futbol I",
-                "descripcion": "Realizado en Costa Rica, impartido por el club Saprissa, por un período de 25 horas",
-                "tipo": "Diploma",
-                "date": "2016"
-            },
-            {
-                "img": "../../../public/Proyecto/svg/diploma.svg",
-                "title": "Implementacion de Escuelas de Futbol II",
-                "descripcion": "Realizado en Costa Rica, impartido por el club Saprissa, por un período de 40 horas",
-                "tipo": "Diploma",
-                "date": "2016"
-            },
-            {
-                "img": "../../../public/Proyecto/svg/Seminario.svg",
-                "title": "Sports Camp",
-                "descripcion": "Realizado por entrenadores especialistas en Ciencias del Deporte y Medicina Deportiva, en la Universidad Americana (UAM)",
-                "tipo": "Seminario",
-                "date": "2015"
-            },
-            {
-                "img": "../../../public/Proyecto/svg/Licencia Icon.svg",
-                "title": "Licencia D",
-                "descripcion": "Realizado en Managua, impartido para los entrenadores de fútbol a nivel nacional",
-                "tipo": "Licencia",
-                "date": "2022"
-            },
-            {
-                "img": "../../../public/Proyecto/svg/Licencia Icon.svg",
-                "title": "Licencia C",
-                "descripcion": "Realizado en Managua, impartido para los entrenadores de fútbol a nivel nacional",
-                "tipo": "Licencia",
-                "date": "2023"
-            }
-        ],
-        "pictures": [
-            {
-                "team": "Managua Sub 17",
-                "img": "/Managua FC/U17/2021/Principal/1.jpg",
-                "date": "2021"
-            },
-            {
-                "team": "Managua Sub 15",
-                "img": "/Managua FC/U15/2016/Principal/1.jpg",
-                "date": "2016"
-            },
-            {
-                "team": "Super Liga Claro Internacional",
-                "img": "https://3.bp.blogspot.com/-0Zbt5ZIsvPQ/W5dR6zpKWzI/AAAAAAAADVg/uPgAUCu1_Js_gS7dTla9JCzwSMGl7B2JQCLcBGAs/s1600/DSC_9890.jpg",
-                "date": "2018"
-            },
-            {
-                "team": "Managua Sub 17",
-                "img": "/Managua FC/U17/2022/Principal/1.jpg",
-                "date": "2022"
-            },
-            {
-                "team": "Managua Sub 15",
-                "img": "/Managua FC/U15/2019/Principal/1.jpg",
-                "date": "2019"
-            },
-            {
-                "team": "Managua Sub 15",
-                "img": "/Managua FC/U15/2017/Principal/1.jpg",
-                "date": "2017"
-            },
-            {
-                "team": "Super Liga Claro Nacional",
-                "img": "https://static.wixstatic.com/media/000648_4f4d1da2b4ef419da946299838f06fe8~mv2_d_4384_3456_s_4_2.jpg/v1/fill/w_1215,h_958,al_c,q_90/000648_4f4d1da2b4ef419da946299838f06fe8~mv2_d_4384_3456_s_4_2.webp",
-                "date": "2018"
-            },
-            {
-                "team": "Managua Sub 15",
-                "img": "/Managua FC/U15/2018/Principal/1.jpg",
-                "date": "2019"
-            }
-        ],
-        "skill": [
-            {
-                "habilidad": "Interacción"
-            },
-            {
-                "habilidad": "Trabajo en equipo"
-            },
-            {
-                "habilidad": "Decisión"
-            },
-            {
-                "habilidad": "Dedicación"
-            },
-            {
-                "habilidad": "Liderazgo"
-            }
-        ]
-    }
+{
+    "cursos": [
+        {
+            "img": "/Proyecto/svg/Seminario.svg",
+            "title": "Seminario para Tecnicos",
+            "descripcion": "Realizado en Carazo por la Federación Nicaragüense de Futbol (FENIFUT)",
+            "tipo": "Seminario",
+            "date": "2015"
+        },
+        {
+            "img": "/Proyecto/svg/diploma.svg",
+            "title": "Implementacion de Escuelas de Futbol I",
+            "descripcion": "Realizado en Costa Rica, impartido por el club Saprissa, por un período de 25 horas",
+            "tipo": "Diploma",
+            "date": "2016"
+        },
+        {
+            "img": "/Proyecto/svg/diploma.svg",
+            "title": "Implementacion de Escuelas de Futbol II",
+            "descripcion": "Realizado en Costa Rica, impartido por el club Saprissa, por un período de 40 horas",
+            "tipo": "Diploma",
+            "date": "2016"
+        },
+        {
+            "img": "/Proyecto/svg/Seminario.svg",
+            "title": "Sports Camp",
+            "descripcion": "Realizado por entrenadores especialistas en Ciencias del Deporte y Medicina Deportiva, en la Universidad Americana (UAM)",
+            "tipo": "Seminario",
+            "date": "2015"
+        },
+        {
+            "img": "/Proyecto/svg/Licencia Icon.svg",
+            "title": "Licencia D",
+            "descripcion": "Realizado en Managua, impartido para los entrenadores de fútbol a nivel nacional",
+            "tipo": "Licencia",
+            "date": "2022"
+        },
+        {
+            "img": "/Proyecto/svg/Licencia Icon.svg",
+            "title": "Licencia C",
+            "descripcion": "Realizado en Managua, impartido para los entrenadores de fútbol a nivel nacional",
+            "tipo": "Licencia",
+            "date": "2023"
+        }
+    ],
+    "pictures": [
+        {
+            "team": "Managua Sub 17",
+            "img": "/Managua FC/U17/2021/Principal/1.jpg",
+            "date": "2021"
+        },
+        {
+            "team": "Managua Sub 15",
+            "img": "/Managua FC/U15/2016/Principal/1.jpg",
+            "date": "2016"
+        },
+        {
+            "team": "Super Liga Claro Internacional",
+            "img": "https://3.bp.blogspot.com/-0Zbt5ZIsvPQ/W5dR6zpKWzI/AAAAAAAADVg/uPgAUCu1_Js_gS7dTla9JCzwSMGl7B2JQCLcBGAs/s1600/DSC_9890.jpg",
+            "date": "2018"
+        },
+        {
+            "team": "Managua Sub 17",
+            "img": "/Managua FC/U17/2022/Principal/1.jpg",
+            "date": "2022"
+        },
+        {
+            "team": "Managua Sub 15",
+            "img": "/Managua FC/U15/2019/Principal/1.jpg",
+            "date": "2019"
+        },
+        {
+            "team": "Managua Sub 15",
+            "img": "/Managua FC/U15/2017/Principal/1.jpg",
+            "date": "2017"
+        },
+        {
+            "team": "Super Liga Claro Nacional",
+            "img": "https://static.wixstatic.com/media/000648_4f4d1da2b4ef419da946299838f06fe8~mv2_d_4384_3456_s_4_2.jpg/v1/fill/w_1215,h_958,al_c,q_90/000648_4f4d1da2b4ef419da946299838f06fe8~mv2_d_4384_3456_s_4_2.webp",
+            "date": "2018"
+        },
+        {
+            "team": "Managua Sub 15",
+            "img": "/Managua FC/U15/2018/Principal/1.jpg",
+            "date": "2019"
+        }
+    ],
+    "skill": [
+        {
+            "habilidad": "Interacción"
+        },
+        {
+            "habilidad": "Trabajo en equipo"
+        },
+        {
+            "habilidad": "Decisión"
+        },
+        {
+            "habilidad": "Dedicación"
+        },
+        {
+            "habilidad": "Liderazgo"
+        }
+    ]
+}

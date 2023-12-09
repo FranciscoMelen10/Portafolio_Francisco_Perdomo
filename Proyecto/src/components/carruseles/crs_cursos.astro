@@ -1,5 +1,5 @@
 ---
-import prinJSON from "../../JSON/principal.json"
+import prinJSON from "../../JSON/principal.json";
 ---
 
 <div class="swiper mySwiper">
@@ -8,12 +8,12 @@ import prinJSON from "../../JSON/principal.json"
       prinJSON.cursos.map((info) => {
         return (
           <div class="swiper-slide">
-              <picture>
-                <img src= {info.img} alt={`${info.title} Image`} >
-              </picture>
-                <p class="title">{info.title} </p>
-                <p class="tipo">{info.tipo}</p>
-                <p class="date">{info.date}</p>
+            <picture>
+              <img src={info.img} alt={`${info.title} Image`} />
+            </picture>
+            <p class="title">{info.title} </p>
+            <p class="tipo">{info.tipo}</p>
+            <p class="date">{info.date}</p>
           </div>
         );
       })
@@ -31,11 +31,11 @@ import prinJSON from "../../JSON/principal.json"
   const anchoPantalla = window.innerWidth;
 
   let slides = 1;
-  let wthCard = 400
+  let wthCard = 400;
 
-  while (anchoPantalla > wthCard){
+  while (anchoPantalla > wthCard) {
     wthCard = wthCard + 400;
-    slides ++ 
+    slides++;
   }
 
   var swiper = new Swiper(".mySwiper", {
@@ -74,9 +74,8 @@ import prinJSON from "../../JSON/principal.json"
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.25);  
+    box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.25);
     padding: 10px;
-
   }
 
   .swiper-slide img {

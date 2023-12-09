@@ -1,16 +1,16 @@
 ---
 //Componentes
-import Header from "../componets/header.astro";
-import Title from "../componets/title.astro";
-import Footer from "../componets/footer.astro";
+import Header from "../components/header.astro";
+import Title from "../components/title.astro";
+import Footer from "../components/footer.astro";
 
 //Caruseles
-import Carusel_pics from "../componets/carruseles/carusel_pics.astro";
-import Carususel_cursos from "../componets/carruseles/carusel_cursos.astro";
+import Carusel_pics from "../components/carruseles/crs_pics.astro";
+import Carususel_cursos from "../components/carruseles/crs_cursos.astro";
 
 //JSON
-import prinJSON from "../JSON/principal.json"
-import CounterSkills from "../componets/counter_skills.astro";
+import prinJSON from "../JSON/principal.json";
+import CounterSkills from "../components/counter_skills.astro";
 ---
 
 <!doctype html>
@@ -31,7 +31,6 @@ import CounterSkills from "../componets/counter_skills.astro";
 
     <link rel="icon" type="image/svg+xml" href="/Proyecto/Logo.ico" />
 
-
     <title>Home</title>
   </head>
   <body>
@@ -48,10 +47,7 @@ import CounterSkills from "../componets/counter_skills.astro";
               >Descargar CV</a
             >
           </section>
-          <img
-            src="/Proyecto/Profile Pic.png"
-            alt="Foto de ejemplo"
-          />
+          <img src="/Proyecto/Profile Pic.png" alt="Foto de ejemplo" />
         </aside>
       </div>
       <div class="contenedor_historial">
@@ -68,10 +64,10 @@ import CounterSkills from "../componets/counter_skills.astro";
           división, juvenil e incluso a nivel de selección nacional.
         </p>
         <section class="section_carusel">
-          <Carusel_pics fotos={prinJSON.pictures} effectHover={true}/>
+          <Carusel_pics fotos={prinJSON.pictures} effectHover={true} />
         </section>
       </div>
-<!-- 
+      <!-- 
       <div class="contenedor_sobre_mi">
         <Title titulo="Habilidades de trabajo" />
         <aside class="aside_skills">
@@ -194,7 +190,8 @@ import CounterSkills from "../componets/counter_skills.astro";
     font-family: "Krona one", sans-serif;
   }
 
-  .contenedor_menu section h1, .contenedor_menu section h2{
+  .contenedor_menu section h1,
+  .contenedor_menu section h2 {
     margin: 10px 0;
   }
 
@@ -365,7 +362,6 @@ import CounterSkills from "../componets/counter_skills.astro";
     .contenedor_historial {
       grid-template-columns: repeat(1, auto);
       grid-template-rows: repeat(1, auto);
-
     }
   }
 </style>

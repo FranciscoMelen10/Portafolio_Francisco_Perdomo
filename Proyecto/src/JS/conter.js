@@ -11,7 +11,7 @@ function animateValue(obj, start, end, duration) {
     window.requestAnimationFrame(step);
 }
 
-const torneos = document.getElementById("con_torneos"); 
+const torneos = document.getElementById("con_torneos");
 const trofeos = document.getElementById("con_trofeos");
 const cursos = document.getElementById("con_cursos");
 const equipos = document.getElementById("con_equipos");

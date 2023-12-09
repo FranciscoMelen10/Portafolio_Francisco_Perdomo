@@ -18,7 +18,7 @@ const { fotos, effectHover } = Astro.props;
     fotos.map((info) => {
       return (
         <div class="card" id={effectHover ? "effectHover" : ""}>
-            <img src= `${info.img}` ></img>
+            <img src={info.img} ></img>
             {
               effectHover ? (<aside>
               <p class="title">{info.team} </p>

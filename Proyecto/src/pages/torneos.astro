@@ -1,26 +1,25 @@
 ---
 //Componentes
 import Principal from "../layout/principal.astro";
-import Card_torneos from "../componets/cards/torneos.astro";
+import Card_torneos from "../components/cards/torneos.astro";
 
 //JSON
-import torneos_json from "../JSON/torneos.json"
-
+import torneos_json from "../JSON/torneos.json";
 ---
 
 <Principal name="Torneos" seccion={2}>
   <div>
     {
-      torneos_json.map((info) =>{
-        return(
-        <Card_torneos 
-          nombre={info.team}
-          descripcion={info.descripcion}
-          temporada={info.date}
-          url={info.url}
-        fotos={info.img}
-    />
-        )
+      torneos_json.map((info) => {
+        return (
+          <Card_torneos
+            nombre={info.team}
+            descripcion={info.descripcion}
+            temporada={info.date}
+            url={info.url}
+            fotos={info.img}
+          />
+        );
       })
     }
   </div>
@@ -35,7 +34,7 @@ import torneos_json from "../JSON/torneos.json"
   }
 
   @media screen and (max-width: 700px) {
-    div{
+    div {
       padding: 0 20px;
     }
   }

@@ -8,7 +8,7 @@
             "/Managua FC/U15/2016/Torneos/3.jpg",
             "/Managua FC/U15/2016/Torneos/4.jpg"
         ],
-        "url": "./Torneos/Managua/U15/2016",
+        "url": "./torneos/Managua/U15/2016",
         "date": "2016"
     },
     {
@@ -20,7 +20,7 @@
             "/Managua FC/U15/2017/Torneos/3.jpg",
             "/Managua FC/U15/2017/Torneos/4.jpg"
         ],
-        "url": "./Torneos/Managua/U15/2017",
+        "url": "./torneos/Managua/U15/2017",
         "date": "2017"
     },
     {
@@ -32,7 +32,7 @@
             "/Managua FC/U15/2018/Torneos/3.jpg",
             "/Managua FC/U15/2018/Torneos/4.jpg"
         ],
-        "url": "./Torneos/Managua/U15/2018",
+        "url": "./torneos/Managua/U15/2018",
         "date": "2018"
     },
     {
@@ -44,7 +44,7 @@
             "/Copa Claro/Nacional/Torneos/3.jpg",
             "/Copa Claro/Nacional/Torneos/4.jpg"
         ],
-        "url": "./Torneos/Copa Claro/Nacional",
+        "url": "./torneos/Copa Claro/Nacional",
         "date": "2018"
     },
     {
@@ -56,7 +56,7 @@
             "/Copa Claro/Internacional/Torneos/3.jpg",
             "/Copa Claro/Internacional/Torneos/4.jpg"
         ],
-        "url": "./Torneos/Copa Claro/Internacional",
+        "url": "./torneos/Copa Claro/Internacional",
         "date": "2018"
     },
     {
@@ -68,7 +68,7 @@
             "/Managua FC/U15/2019/Torneos/3.jpg",
             "/Managua FC/U15/2019/Torneos/4.jpg"
         ],
-        "url": "./Torneos/Managua/U15/2019",
+        "url": "./torneos/Managua/U15/2019",
         "date": "2019"
     },
     {
@@ -80,7 +80,7 @@
             "/Managua FC/U17/2021/Torneos/3.jpg",
             "/Managua FC/U17/2021/Torneos/4.jpg"
         ],
-        "url": "./Torneos/Managua/U17/2021",
+        "url": "./torneos/Managua/U17/2021",
         "date": "2021"
     },
     {
@@ -92,7 +92,7 @@
             "/Managua FC/U17/2022/Torneos/3.jpg",
             "/Managua FC/U17/2022/Torneos/4.jpg"
         ],
-        "url": "./Torneos/Managua/U17/2022",
+        "url": "./torneos/Managua/U17/2022",
         "date": "2022"
     },
     {
@@ -104,7 +104,7 @@
             "/Managua FC/U17/2023/Torneos/3.jpg",
             "/Managua FC/U17/2023/Torneos/4.jpg"
         ],
-        "url": "./Torneos/Managua/U17/2023",
+        "url": "./torneos/Managua/U17/2023",
         "date": "2023"
     }
 ]

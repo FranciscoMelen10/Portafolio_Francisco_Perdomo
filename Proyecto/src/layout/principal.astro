@@ -1,6 +1,6 @@
 ---
-import Footer from "../componets/footer.astro";
-import Header from "../componets/header.astro";
+import Footer from "../components/footer.astro";
+import Header from "../components/header.astro";
 
 interface Props {
   name: string;
@@ -31,7 +31,6 @@ const { name, seccion } = Astro.props;
 
     <link rel="icon" type="image/svg+xml" href="/Proyecto/Logo.ico" />
 
-
     <title>{name}</title>
   </head>
   <body>
@@ -41,7 +40,7 @@ const { name, seccion } = Astro.props;
     <main>
       <slot />
     </main>
-  <Footer></Footer>
+    <Footer />
   </body>
 </html>
 
