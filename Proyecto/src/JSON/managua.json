@@ -1,7 +1,7 @@
 [
     {
         "nombre": "Dixon Zeledón",
-        "cargo": "Asistente",
+        "cargo": "Soporte",
         "img": "/Team/Dixon Zeledon.jpg"
     },
     {
@@ -11,12 +11,12 @@
     },
     {
         "nombre": "Brandoll Espinoza",
-        "cargo": "Asistente",
+        "cargo": "Soporte",
         "img": "/Team/Brandoll Espinoza.jpg"
     },
     {
         "nombre": "Dixi Lopez",
-        "cargo": "Asistente",
+        "cargo": "Asistente técnico",
         "img": "/Team/Dixi Lopez.jpg"
     },
     {
@@ -36,12 +36,12 @@
     },
     {
         "nombre": "Olmer Abraham",
-        "cargo": "Asistente",
+        "cargo": "Asistente técnico",
         "img": "/Team/Olmer Abraham.jpg"
     },
     {
         "nombre": "Keler Aguilar",
-        "cargo": "Asistente",
+        "cargo": "Psicologo",
         "img": "/Team/Olmer Abraham.jpg"
     },
     {

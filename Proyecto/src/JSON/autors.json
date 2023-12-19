@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Renchi Frabelle Melendez Simplina",
+        "img": "/Proyecto/autors/Renchi.jpg",
+        "cargo": "Designed by",
+        "desc": "Renchi Frabelle, ingeniera en sistemas de información, hizo el diseño del sitio web utilizando la plataforma Figma. Su enfoque profesional y su habilidad técnica se fusionaron con un toque personal, creando una experiencia digital que no solo es funcional y eficiente, sino también estéticamente agradable.",
+        "redes": {
+            "git": "https://github.com/frabelle",
+            "linkedin": "https://www.linkedin.com/in/renchifrabelle?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BIem38kszRzyV%2BuApzP6YRg%3D%3D",
+            "insta": "https://www.instagram.com/renchifrabelle/"
+        }
+    },
+    {
+        "name": "FRANCISCO DE JESUS MELENDEZ SIMPLINA",
+        "img": "/Proyecto/autors/Chicoy.jpg",
+        "cargo": "DEVELOPED by",
+        "desc": "Francisco Melendez, estudiante de ingeniería en sistemas de información, asumió la programación del sitio, dando vida al diseño con habilidades técnicas y creatividad. Tambien transformó las ideas en código, asegurando una experiencia fluida para los usuarios. Además, se sumergió en la búsqueda y organización de la multimedia de la página.",
+        "redes": {
+            "git": "https://github.com/FranciscoMelen10",
+            "linkedin": "https://www.linkedin.com/in/francisco-de-jesús-melendez-simplina-560515247",
+            "insta": "https://www.instagram.com/coooooooooooyyyyyyy/"
+        }
+    }
+]

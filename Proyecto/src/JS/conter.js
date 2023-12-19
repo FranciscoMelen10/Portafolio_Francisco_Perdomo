@@ -16,8 +16,8 @@ const trofeos = document.getElementById("con_trofeos");
 const cursos = document.getElementById("con_cursos");
 const equipos = document.getElementById("con_equipos");
 
-animateValue(torneos, 0, 100, 3000);
-animateValue(trofeos, 0, 100, 3000);
-animateValue(cursos, 0, 100, 3000);
-animateValue(equipos, 0, 100, 3000);
+animateValue(torneos, 500, 10, 1000);
+animateValue(trofeos, 500, 6, 2000);
+animateValue(cursos, 500, 5, 3000);
+animateValue(equipos, 500, 2, 4000);
 

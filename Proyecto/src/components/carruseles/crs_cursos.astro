@@ -31,10 +31,10 @@ import prinJSON from "../../JSON/principal.json";
   const anchoPantalla = window.innerWidth;
 
   let slides = 1;
-  let wthCard = 400;
+  let wthCard = 600;
 
   while (anchoPantalla > wthCard) {
-    wthCard = wthCard + 400;
+    wthCard = wthCard + 600;
     slides++;
   }
 
@@ -59,8 +59,12 @@ import prinJSON from "../../JSON/principal.json";
   .swiper {
     height: 100%;
     width: 100%;
-    padding: 10px;
     background-color: #fff;
+    padding: 10px;
+  }
+
+  .swiper-wrapper {
+    padding: 50px 0px;
   }
 
   .swiper-slide {
@@ -74,7 +78,7 @@ import prinJSON from "../../JSON/principal.json";
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
     padding: 10px;
   }
 
@@ -93,7 +97,7 @@ import prinJSON from "../../JSON/principal.json";
   .tipo {
     color: #24437a;
     text-align: center;
-    font-family: Krona One;
+    font-family: "Krona One";
     font-size: 10px;
     font-weight: 400;
     border-radius: 100px;
@@ -105,10 +109,17 @@ import prinJSON from "../../JSON/principal.json";
   .date {
     color: #24437a;
     text-align: center;
-    font-family: Koulen;
+    font-family: "Koulen";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 36px; /* 180% */
+  }
+
+  @media screen and (min-width: 3100px) {
+    .swiper-wrapper {
+      display: flex;
+      justify-content: center;
+    }
   }
 </style>

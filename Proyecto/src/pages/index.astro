@@ -67,27 +67,6 @@ import CounterSkills from "../components/counter_skills.astro";
           <Carusel_pics fotos={prinJSON.pictures} effectHover={true} />
         </section>
       </div>
-      <!-- 
-      <div class="contenedor_sobre_mi">
-        <Title titulo="Habilidades de trabajo" />
-        <aside class="aside_skills">
-          {
-            prinJSON.skill.map((info) => {
-              return (
-                <section>
-                  <picture>
-                    <img
-                      src="../../public/Proyecto/svg/team-building.png"
-                      class="skills_img"
-                    />
-                  </picture>
-                  <p>{info.habilidad}</p>
-                </section>
-              );
-            })
-          }
-        </aside>
-      </div> -->
 
       <div>
         <Title titulo="Cursos" />
@@ -121,7 +100,7 @@ import CounterSkills from "../components/counter_skills.astro";
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    margin-bottom: 20vh;
+    margin-bottom: 50px;
   }
 
   div {
@@ -267,6 +246,10 @@ import CounterSkills from "../components/counter_skills.astro";
       align-items: center;
     }
 
+    .contenedor_principal_menu {
+      height: 100%;
+    }
+
     .contenedor_menu section {
       align-items: center;
       margin: 40px 0;
@@ -303,10 +286,6 @@ import CounterSkills from "../components/counter_skills.astro";
   }
 
   @media screen and (max-width: 740px) {
-    .contenedor_principal_menu {
-      height: auto;
-    }
-
     .contenedor_menu .title {
       font-size: 60px;
     }

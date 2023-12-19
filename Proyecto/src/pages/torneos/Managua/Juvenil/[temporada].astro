@@ -3,16 +3,12 @@ import temaJSON from "../../../../JSON/team.json";
 import TorneosLy from "../../../../layout/torneosLy.astro";
 
 export function getStaticPaths() {
-  return [
-    { params: { temporada: "2021" } },
-    { params: { temporada: "2022" } },
-    { params: { temporada: "2023" } },
-  ];
+  return [{ params: { temporada: "2023" } }];
 }
 
 const { temporada } = Astro.params;
 // Consumir el json
-const aux = temaJSON.map((info) => info.Managua.sub17[temporada]);
+const aux = temaJSON.map((info) => info.Managua.juvenil[temporada]);
 
 // Trabajar de una forma más limpia
 const data = aux[0];

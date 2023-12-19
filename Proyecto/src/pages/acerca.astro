@@ -1,6 +1,59 @@
 ---
+import Title from "../components/title.astro";
 import Principal from "../layout/principal.astro";
+
+//JSON
+import Autors_json from "../JSON/autors.json";
+import Autors from "../components/cards/autors.astro";
 ---
 
-<Principal name="Acerca De" seccion={3}>Acerca de</Principal>
+<Principal name="Acerca De" seccion={3}>
+  <section class="sitio">
+    <Title titulo="Acerca del sitio" />
+    <p class="descripcion">
+      Renchi Frabelle y Francisco Meléndez Jr. han tenido el honor de diseñar
+      esta página con gran profesionalismo y un toque personal muy especial. La
+      motivación detrás de este proyecto fue para su padre Francisco Meléndez.
+      Su destacada carrera como técnico de fútbol merecía un reconocimiento a la
+      altura de sus logros. La página contiene momentos significativos que han
+      caracterizado la carrera deportiva de su padre, reflejando la admiración y
+      gratitud que sienten hacia él. Este gesto combina la seriedad profesional
+      con la calidez personal que solo un regalo familiar puede ofrecer.
+    </p>
+  </section>
 
+  {
+    Autors_json.map((data) => {
+      return <Autors autor={data} />;
+    })
+  }
+</Principal>
+
+<style>
+  .sitio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    max-width: 1290px;
+    margin: auto;
+  }
+
+  .sitio .descripcion {
+    color: #24437a;
+    font-family: "Inter";
+    font-size: 25px;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .sitio .descripcion {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 470px) {
+    .sitio .descripcion {
+      font-size: 15px;
+    }
+  }
+</style>
