@@ -33,22 +33,23 @@ const { name, seccion, marg } = Astro.props;
     />
 
     <link rel="icon" type="image/svg+xml" href="/Proyecto/Logo.ico" />
-    <ViewTransitions />
 
     <title>{name}</title>
   </head>
   <body>
     <div class="header_principal">
-      <Header seleccion={seccion} />
+      <Header seleccion={seccion} astro:page-load/>
     </div>
     <main style=`margin-bottom:${marg ? "10vh" : "0"}`>
       <slot />
     </main>
     <Footer />
-  </body><script
+  </body>
+  <script
     src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"
   ></script>
-  <script src="/src/JS/header.js"></script>
+  <ViewTransitions/>
+
 
   <style is:global>
     * {

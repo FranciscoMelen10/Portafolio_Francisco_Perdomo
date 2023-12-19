@@ -6,7 +6,7 @@ interface Props {
 const { seleccion } = Astro.props;
 ---
 
-<header>
+<header >
   <img src="/Proyecto/Logo.png" alt="Logo" />
   <div>
     <a id="hambuerguesa" class="icon_hambuerguesa">
@@ -21,13 +21,13 @@ const { seleccion } = Astro.props;
     </a>
     <nav class="screen_ph">
       <a href="/"
-        ><span class=`${seleccion === 1 ? "borde" : ""}`>Inicio</span></a
+        ><span class=`links ${seleccion === 1 ? "borde" : ""}`>Inicio</span></a
       >
       <a href="/torneos"
-        ><span class=`${seleccion === 2 ? "borde" : ""}`>Torneos</span>
+        ><span class=`links ${seleccion === 2 ? "borde" : ""}`>Torneos</span>
       </a>
       <a href="/acerca"
-        ><span class=`${seleccion === 3 ? "borde" : ""}`>Acerca de</span></a
+        ><span class=`links ${seleccion === 3 ? "borde" : ""}`>Acerca de</span></a
       >
 
       <a id="close">
@@ -45,6 +45,7 @@ const { seleccion } = Astro.props;
     </nav>
   </div>
 </header>
+<script src="/src/JS/header.js"></script>
 
 <style>
   header {
@@ -53,6 +54,7 @@ const { seleccion } = Astro.props;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+  
   }
 
   div {

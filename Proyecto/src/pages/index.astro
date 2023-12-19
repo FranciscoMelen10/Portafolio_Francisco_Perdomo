@@ -30,16 +30,16 @@ import CounterSkills from "../components/counter_skills.astro";
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <ViewTransitions/>
 
     <link rel="icon" type="image/svg+xml" href="/Proyecto/Logo.ico" />
-    <ViewTransitions />
 
     <title>Home</title>
   </head>
   <body>
     <main>
       <div class="contenedor_principal_menu">
-        <Header seleccion={1} />
+        <Header seleccion={1} astro:page-load/>
         <aside class="contenedor_menu">
           <section>
             <h1 class="title">Francisco Melendez</h1>
@@ -80,7 +80,7 @@ import CounterSkills from "../components/counter_skills.astro";
     <script
       src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"
     ></script>
-    <script src="../JS/header.js"></script>
+
 
     <style>
       * {

@@ -24,28 +24,8 @@ import prinJSON from "../../JSON/principal.json";
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
 ></script>
-<script>
-  import Swiper from "swiper/bundle";
+<script src="/src/JS/crs_cursos.js">
 
-  // Obtén el ancho de la pantalla
-  const anchoPantalla = window.innerWidth;
-
-  let slides = 1;
-  let wthCard = 600;
-
-  while (anchoPantalla > wthCard) {
-    wthCard = wthCard + 600;
-    slides++;
-  }
-
-  var swiper = new Swiper(".mySwiper", {
-    slidesPerView: slides,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
 </script>
 
 <style>
