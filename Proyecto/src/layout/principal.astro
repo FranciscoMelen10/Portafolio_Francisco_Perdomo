@@ -1,13 +1,16 @@
 ---
+import { ViewTransitions } from "astro:transitions";
+
 import Footer from "../components/footer.astro";
 import Header from "../components/header.astro";
 
 interface Props {
   name: string;
   seccion: number;
+  marg: boolean;
 }
 
-const { name, seccion } = Astro.props;
+const { name, seccion, marg } = Astro.props;
 ---
 
 <html lang="en">
@@ -30,6 +33,7 @@ const { name, seccion } = Astro.props;
     />
 
     <link rel="icon" type="image/svg+xml" href="/Proyecto/Logo.ico" />
+    <ViewTransitions />
 
     <title>{name}</title>
   </head>
@@ -37,58 +41,54 @@ const { name, seccion } = Astro.props;
     <div class="header_principal">
       <Header seleccion={seccion} />
     </div>
-    <main>
+    <main style=`margin-bottom:${marg ? "10vh" : "0"}`>
       <slot />
     </main>
     <Footer />
-  </body>
+  </body><script
+    src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"
+  ></script>
+  <script src="/src/JS/header.js"></script>
+
+  <style is:global>
+    * {
+      padding: 0%;
+      margin: 0%;
+      box-sizing: border-box;
+    }
+
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+    }
+
+    main {
+      background-color: #ffffff;
+    }
+
+    .general {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 50px 80px 0 80px;
+    }
+
+    .contenedor_principal {
+      height: 100px;
+      width: 100vh;
+    }
+
+    .header_principal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #24437a;
+      height: 100px;
+      width: 100%;
+      padding: 50px;
+    }
+  </style>
 </html>
-
-<script
-  src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"
-></script>
-<script src="/src/JS/header.js"></script>
-
-<style is:global>
-
-  * {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-  }
-
-  body,
-  html {
-    width: 100%;
-    height: 100%;
-  }
-
-  main {
-    background-color: #ffffff;
-    margin-bottom: 10vh;
-  }
-
-  .general {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 50px 80px 0 80px;
-  }
-
-  .contenedor_principal {
-    height: 100px;
-    width: 100vh;
-  }
-
-  .header_principal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #24437a;
-    height: 100px;
-    width: 100%;
-    padding: 50px;
-  }
-</style>

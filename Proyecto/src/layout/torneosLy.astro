@@ -3,6 +3,7 @@ import Manager from "../components/cards/manager.astro";
 import Title from "../components/title.astro";
 import Principal from "./principal.astro";
 import Carusel_pics from "../components/carruseles/crs_pics.astro";
+import { ViewTransitions } from "astro:transitions";
 
 // Compañeros de equipo
 interface Supp {
@@ -35,7 +36,8 @@ interface Props {
 const { data } = Astro.props;
 ---
 
-<Principal name={data.team + " - " + data.temporada} seccion={2}>
+<Principal name={data.team + " - " + data.temporada} seccion={2} marg={true}>
+  <ViewTransitions />
   <div class="card">
     <img src={data.background} />
     <aside>
@@ -61,6 +63,7 @@ const { data } = Astro.props;
     <Title titulo="Cuerpo Tecnico" />
     <Manager fotos={data.support} />
   </div>
+
   <div class="contenedor_galeria contenedor">
     <Title titulo="Galeria" />
     <Carusel_pics effectHover={false} fotos={data.galeria} />

@@ -7,7 +7,7 @@ import Autors_json from "../JSON/autors.json";
 import Autors from "../components/cards/autors.astro";
 ---
 
-<Principal name="Acerca De" seccion={3}>
+<Principal name="Acerca De" seccion={3} marg={false}>
   <section class="sitio">
     <Title titulo="Acerca del sitio" />
     <p class="descripcion">
@@ -27,6 +27,17 @@ import Autors from "../components/cards/autors.astro";
       return <Autors autor={data} />;
     })
   }
+
+  <div class="cnt_frase">
+    <figure>
+      <blockquote>
+        “El exito no es un accidente. Es trabajo duro, perseverancia,
+        aprendizaje, estudio, sacrificio y, sobre todo, amor por lo que estas
+        haciendo o aprendiendo a hacer”
+      </blockquote>
+      <figcaption>- PELÉ</figcaption>
+    </figure>
+  </div>
 </Principal>
 
 <style>
@@ -43,17 +54,74 @@ import Autors from "../components/cards/autors.astro";
     color: #24437a;
     font-family: "Inter";
     font-size: 25px;
+    line-height: 36px;
+  }
+
+  .cnt_frase {
+    height: 50vh;
+    background: url("../../public/Proyecto/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  blockquote {
+    color: #fff;
+    text-align: center;
+    font-family: "Koulen";
+    font-size: 40px;
+  }
+
+  figcaption {
+    color: #fff;
+    text-align: end;
+    font-family: "Krona One";
+    font-size: 35px;
+    width: 95%;
   }
 
   @media screen and (max-width: 1200px) {
     .sitio .descripcion {
       font-size: 20px;
     }
+
+    blockquote {
+      font-size: 25px;
+    }
+
+    figcaption {
+      font-size: 20px;
+    }
   }
 
-  @media screen and (max-width: 470px) {
+  @media screen and (max-width: 655px) {
+    blockquote {
+      font-size: 20px;
+    }
+
+    figcaption {
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 475px) {
+    .cnt_frase {
+      height: auto;
+    }
+
     .sitio .descripcion {
       font-size: 15px;
+    }
+    blockquote {
+      font-size: 15px;
+    }
+
+    figcaption {
+      font-size: 10px;
     }
   }
 </style>

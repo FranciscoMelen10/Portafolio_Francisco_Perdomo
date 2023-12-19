@@ -1,4 +1,6 @@
 ---
+import { ViewTransitions } from "astro:transitions";
+
 //Componentes
 import Header from "../components/header.astro";
 import Title from "../components/title.astro";
@@ -30,6 +32,7 @@ import CounterSkills from "../components/counter_skills.astro";
     />
 
     <link rel="icon" type="image/svg+xml" href="/Proyecto/Logo.ico" />
+    <ViewTransitions />
 
     <title>Home</title>
   </head>
@@ -74,273 +77,272 @@ import CounterSkills from "../components/counter_skills.astro";
       </div>
     </main>
     <Footer />
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"
+    ></script>
+    <script src="../JS/header.js"></script>
+
+    <style>
+      * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+      }
+
+      body,
+      html {
+        width: 100%;
+        height: 100%;
+      }
+
+      main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #fff;
+        margin-bottom: 50px;
+      }
+
+      div {
+        height: 100%;
+        width: 100%;
+        padding: 50px 80px 0 80px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      /* Seccion Menu Principal */
+
+      .contenedor_principal_menu {
+        height: 100vh;
+        background: url("../../public/Proyecto/Background.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .contenedor_menu {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        text-transform: uppercase;
+        font-family: "Krona one", sans-serif;
+        color: white;
+        height: 100%;
+        width: 100%;
+      }
+
+      .contenedor_menu section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        width: 100%;
+      }
+
+      .contenedor_menu img {
+        height: 90%;
+      }
+
+      .contenedor_menu .title {
+        font-size: 90px;
+        font-family: "Koulen", sans-serif;
+        margin: auto;
+        line-height: 0.9;
+      }
+
+      .contenedor_menu .descripcion {
+        font-size: 30px;
+        line-height: 1;
+      }
+
+      .cv {
+        text-decoration: none;
+        padding: 15px 30px;
+        background-color: #fff730;
+        width: fit-content;
+        color: #24437a;
+        border-radius: 40px;
+        font-size: 20px;
+        font-weight: 900;
+        font-family: "Krona one", sans-serif;
+      }
+
+      .contenedor_menu section h1,
+      .contenedor_menu section h2 {
+        margin: 10px 0;
+      }
+
+      .cv {
+        margin: 30px 0;
+      }
+
+      .contenedor_sobre_mi .descripcion {
+        text-align: center;
+        font-size: 25px;
+        color: #24437a;
+        font-family: "Inter", sans-serif;
+      }
+
+      /* Seccion de cv */
+      .contenedor_historial {
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        justify-items: start;
+      }
+
+      /* Seccion de habilidades */
+      .aside_skills {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+      .aside_skills section {
+        width: 300px;
+        height: 300px;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+      }
+
+      .aside_skills picture {
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: #24437a;
+        transition: all 0.5s;
+      }
+
+      .aside_skills picture:hover {
+        background-color: #3b83ff;
+        cursor: pointer;
+      }
+
+      .aside_skills p {
+        font-family: "Krona one", sans-serif;
+        font-size: 20px;
+        color: #24437a;
+        margin-top: 20px;
+      }
+
+      @media screen and (max-width: 1050px) {
+        div {
+          padding: 30px 30px 0 30px;
+        }
+
+        /* Seccion Menu Principal */
+        .contenedor_menu {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .contenedor_principal_menu {
+          height: 100%;
+        }
+
+        .contenedor_menu section {
+          align-items: center;
+          margin: 40px 0;
+        }
+
+        .contenedor_menu .title {
+          font-size: 70px;
+        }
+
+        .contenedor_menu .descripcion {
+          font-size: 25px;
+        }
+
+        .cv {
+          font-size: 20px;
+        }
+
+        .contenedor_menu img {
+          height: 100%;
+        }
+
+        /* Seccion habilidades */
+
+        .aside_skills p {
+          font-size: 20px;
+        }
+
+        .contenedor_historial {
+          display: grid;
+          grid-template-columns: repeat(2, auto);
+          justify-content: center;
+          gap: 15px;
+        }
+      }
+
+      @media screen and (max-width: 740px) {
+        .contenedor_menu .title {
+          font-size: 60px;
+        }
+
+        .contenedor_menu .descripcion {
+          font-size: 20px;
+        }
+
+        .cv {
+          font-size: 15px;
+        }
+
+        .contenedor_sobre_mi .descripcion {
+          font-size: 20px;
+        }
+
+        .aside_skills section {
+          width: 200px;
+          height: 250px;
+        }
+
+        .aside_skills picture {
+          width: 150px;
+          height: 150px;
+        }
+      }
+
+      @media screen and (max-width: 520px) {
+        .contenedor_menu .title {
+          font-size: 34px;
+        }
+
+        .contenedor_menu .descripcion {
+          font-size: 15px;
+        }
+
+        .cv {
+          font-size: 15px;
+        }
+
+        .aside_skills section {
+          width: 150px;
+          height: 220px;
+        }
+
+        .aside_skills picture {
+          width: 120px;
+          height: 120px;
+        }
+      }
+
+      @media screen and (max-width: 450px) {
+        .contenedor_historial {
+          grid-template-columns: repeat(1, auto);
+          grid-template-rows: repeat(1, auto);
+        }
+      }
+    </style>
   </body>
 </html>
-
-<script
-  src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"
-></script>
-<script src="../JS/header.js"></script>
-
-<style>
-  * {
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-  }
-
-  body,
-  html {
-    width: 100%;
-    height: 100%;
-  }
-
-  main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #fff;
-    margin-bottom: 50px;
-  }
-
-  div {
-    height: 100%;
-    width: 100%;
-    padding: 50px 80px 0 80px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  /* Seccion Menu Principal */
-
-  .contenedor_principal_menu {
-    height: 100vh;
-    background: url("../../public/Proyecto/Background.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .contenedor_menu {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    text-transform: uppercase;
-    font-family: "Krona one", sans-serif;
-    color: white;
-    height: 100%;
-    width: 100%;
-  }
-
-  .contenedor_menu section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    width: 100%;
-  }
-
-  .contenedor_menu img {
-    height: 90%;
-  }
-
-  .contenedor_menu .title {
-    font-size: 90px;
-    font-family: "Koulen", sans-serif;
-    margin: auto;
-    line-height: 0.9;
-  }
-
-  .contenedor_menu .descripcion {
-    font-size: 30px;
-    line-height: 1;
-  }
-
-  .cv {
-    text-decoration: none;
-    padding: 15px 30px;
-    background-color: #fff730;
-    width: fit-content;
-    color: #24437a;
-    border-radius: 40px;
-    font-size: 20px;
-    font-weight: 900;
-    font-family: "Krona one", sans-serif;
-  }
-
-  .contenedor_menu section h1,
-  .contenedor_menu section h2 {
-    margin: 10px 0;
-  }
-
-  .cv {
-    margin: 30px 0;
-  }
-
-  .contenedor_sobre_mi .descripcion {
-    text-align: center;
-    font-size: 25px;
-    color: #24437a;
-    font-family: "Inter", sans-serif;
-  }
-
-  /* Seccion de cv */
-  .contenedor_historial {
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    justify-items: start;
-  }
-
-  /* Seccion de habilidades */
-  .aside_skills {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
-  .aside_skills section {
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-  }
-
-  .aside_skills picture {
-    width: 200px;
-    height: 200px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    background-color: #24437a;
-    transition: all 0.5s;
-  }
-
-  .aside_skills picture:hover {
-    background-color: #3b83ff;
-    cursor: pointer;
-  }
-
-  .aside_skills p {
-    font-family: "Krona one", sans-serif;
-    font-size: 20px;
-    color: #24437a;
-    margin-top: 20px;
-  }
-
-  @media screen and (max-width: 1050px) {
-    div {
-      padding: 30px 30px 0 30px;
-    }
-
-    /* Seccion Menu Principal */
-    .contenedor_menu {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .contenedor_principal_menu {
-      height: 100%;
-    }
-
-    .contenedor_menu section {
-      align-items: center;
-      margin: 40px 0;
-    }
-
-    .contenedor_menu .title {
-      font-size: 70px;
-    }
-
-    .contenedor_menu .descripcion {
-      font-size: 25px;
-    }
-
-    .cv {
-      font-size: 20px;
-    }
-
-    .contenedor_menu img {
-      height: 100%;
-    }
-
-    /* Seccion habilidades */
-
-    .aside_skills p {
-      font-size: 20px;
-    }
-
-    .contenedor_historial {
-      display: grid;
-      grid-template-columns: repeat(2, auto);
-      justify-content: center;
-      gap: 15px;
-    }
-  }
-
-  @media screen and (max-width: 740px) {
-    .contenedor_menu .title {
-      font-size: 60px;
-    }
-
-    .contenedor_menu .descripcion {
-      font-size: 20px;
-    }
-
-    .cv {
-      font-size: 15px;
-    }
-
-    .contenedor_sobre_mi .descripcion {
-      font-size: 20px;
-    }
-
-    .aside_skills section {
-      width: 200px;
-      height: 250px;
-    }
-
-    .aside_skills picture {
-      width: 150px;
-      height: 150px;
-    }
-  }
-
-  @media screen and (max-width: 520px) {
-    .contenedor_menu .title {
-      font-size: 35px;
-    }
-
-    .contenedor_menu .descripcion {
-      font-size: 15px;
-    }
-
-    .cv {
-      font-size: 15px;
-    }
-
-    .aside_skills section {
-      width: 150px;
-      height: 220px;
-    }
-
-    .aside_skills picture {
-      width: 120px;
-      height: 120px;
-    }
-  }
-
-  @media screen and (max-width: 450px) {
-    .contenedor_historial {
-      grid-template-columns: repeat(1, auto);
-      grid-template-rows: repeat(1, auto);
-    }
-  }
-</style>

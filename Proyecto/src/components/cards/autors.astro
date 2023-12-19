@@ -29,7 +29,7 @@ const { autor } = Astro.props;
         <h1>{autor.name}</h1>
       </article>
       <!-- Redes -->
-      <picture class="card">
+      <article class="card">
         <a href={autor.redes.insta} class="socialContainer containerOne">
           <svg class="socialSvg instagramSvg" viewBox="0 0 16 16" height="30px">
             <path
@@ -58,7 +58,7 @@ const { autor } = Astro.props;
             ></path>
           </svg>
         </a>
-      </picture>
+      </article>
 
       <p>{autor.desc}</p>
     </aside>
@@ -124,6 +124,7 @@ const { autor } = Astro.props;
   /* Card de redes sociales */
 
   .card {
+    margin: 10px 0;
     width: auto;
     display: flex;
     align-items: center;
@@ -207,16 +208,12 @@ const { autor } = Astro.props;
     }
 
     p {
-      font-size: 16px;
+      font-size: 15px;
     }
 
     .profile {
       width: 400px;
       height: 400px;
-    }
-
-    picture {
-      margin: 5px 0;
     }
   }
 
