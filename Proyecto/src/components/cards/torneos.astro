@@ -47,7 +47,7 @@ const { nombre, temporada, descripcion, url, fotos } = Astro.props;
   }
 
   .aside_descripcion {
-    width: 40%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -122,33 +122,7 @@ const { nombre, temporada, descripcion, url, fotos } = Astro.props;
     font-weight: 400;
   }
 
-  @media screen and (max-width: 1300px) {
-    .title {
-      font-size: 60px;
-    }
-    .temporada {
-      font-size: 30px;
-    }
-
-    .temporada,
-    .logros,
-    .article_url a {
-      font-size: 25px;
-    }
-
-    .article_url {
-      width: 220px;
-      height: 50px;
-    }
-
-    .descripcion {
-      font-size: 20px;
-    }
-
-    .article_url a {
-      font-size: 20px;
-    }
-  }
+ 
 
   @media screen and (max-width: 1100px) {
     section {

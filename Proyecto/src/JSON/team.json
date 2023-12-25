@@ -71,9 +71,9 @@
                     "team": "Managua U15",
                     "temporada": "2017",
                     "descripcion": [
-                        "En el año 2017, el Managua FC Sub 15 alcanzó un destacado tercer lugar en la Copa Sandino, consolidándose como un equipo competitivo en el escenario nacional. Este logro marcó el inicio de una nueva etapa para Francisco Meléndez, quien experimentó su primer campeonato como técnico dejando un gran futuro en su carrera como tecnico en las categorias menores. El equipo se distinguió por su solidez en todas las líneas: defensas impenetrables, porteros habilidosos, mediocampistas entregados y delanteros de calidad, formando una unidad equilibrada y apasionada en cada encuentro.",
+                        "En el año 2017, el Managua FC Sub 15 alcanzó un destacado tercer lugar en la Copa Sandino, consolidándose como un equipo competitivo en el escenario nacional. Este logro marcó el inicio de una nueva etapa para Francisco Meléndez, quien experimentó su primer campeonato como técnico dejando un gran futuro en su carrera como técnico en las categorias menores. El equipo se distinguió por su solidez en todas las líneas: defensas impenetrables, porteros habilidosos, mediocampistas entregados y delanteros de calidad, formando una unidad equilibrada y apasionada en cada encuentro.",
                         "En esta temporada el equipo se enfrento en semifinales al campeón de esa temporada, el Real Estelí. El Managua FC no solo les dio una gran pelea, sino que dejó una huella en la memoria de los aficionados. Con empates de 1-1 en ambos partidos (Ida y vuelta) y llevando la serie a la tanda de penales. Este enfrentamiento, lastimosamente el equipo no logró avanzar a la final, pero demostró tenacidad, determinación, calidad y competitividad, quedándose a las puertas de la final.",
-                        "A pesar de la derrota, el impacto positivo del equipo se reflejó en las oportunidades que brindó a sus jugadores. Algunos tuvieron la ocasión de debutar en la primera división nacional, otros se integraron al equipo juvenil de la capital y varios fueron convocados a la selección nacional, consolidando el papel del Managua FC como una cantera de talento en constante ascenso y contribuyendo al desarrollo del fútbol juvenil en Nicaragua. Con un cuerpo técnico comprometido, que incluía a Dixi Lopez, Elieth Centeno, Dixon Zeledón, Marvin Cruz, Keler Aguilar y Brandoll Espinoza, el equipo forjó no solo resultados notables, sino también el crecimiento individual y colectivo de sus jugadores."
+                        "A pesar de la derrota, el impacto positivo del equipo se reflejó en las oportunidades que brindó a sus jugadores. Algunos tuvieron la ocasión de debutar en la primera división nacional, otros se integraron al equipo juvenil de la capital y varios fueron convocados a la selección nacional, consolidando el papel del Managua FC como una cantera de talento en constante ascenso y contribuyendo al desarrollo del fútbol juvenil en Nicaragua. Con un cuerpo técnico comprometido, que incluía a Dixi Lopez, Elieth Centeno, Dixon Zeledón, Marvin Cruz y Brandoll Espinoza, el equipo forjó no solo resultados notables, sino también el crecimiento individual y colectivo de sus jugadores."
                     ],
                     "background": "/Managua FC/U15/2017/background.jpg",
                     "resultado": "Tercer Lugar",
@@ -123,11 +123,6 @@
                             "nombre": "Marvin Cruz",
                             "cargo": "Soporte",
                             "img": "/Team/Marvin Cruz.jpg"
-                        },
-                        {
-                            "nombre": "Keler Aguilar",
-                            "cargo": "Psicólogo",
-                            "img": "/Team/Keler Aguilar.jpg"
                         },
                         {
                             "nombre": "Brandoll Espinoza",
@@ -206,7 +201,7 @@
                     "temporada": "2019",
                     "descripcion": [
                         "En el año 2019, el Managua FC Sub 15 escribió un capítulo dorado en su historia al coronarse campeón de la Copa Sandino, el prestigioso campeonato a nivel nacional en Nicaragua. Esta victoria marcó la tercera final para Francisco Meléndez, quien guió al equipo hacia el éxito con astucia y determinación. En una final el Diriangén, el Managua FC demostró su dominio al vencer 4-0 en el partido de ida, estableciendo una ventaja abrumadora en la casa del oponente. En el partido de vuelta, aunque el marcador fue un empate 1-1, el global fue de 5-1 a favor del Managua FC, sellando su merecido título y consolidándose como campeones indiscutibles.",
-                        "El cuerpo técnico, encabezado por figuras como Dixi Lopez, Elieth Centeno, Marvin Cruz, Jairo Gutiérrez, Keler Aguilar, Olmer Abraham y Brandoll Espinoza, desempeñó un papel vital en el éxito del equipo, proporcionando la dirección estratégica y el apoyo necesario en cada fase del torneo. Esta colaboración destacada no solo resaltó la capacidad técnica del equipo, sino también la importancia del liderazgo cohesionado en el camino hacia el campeonato.",
+                        "El cuerpo técnico, encabezado por figuras como Dixi Lopez, Elieth Centeno, Marvin Cruz, Jairo Gutiérrez, Olmer Abraham y Brandoll Espinoza, desempeñó un papel vital en el éxito del equipo, proporcionando la dirección estratégica y el apoyo necesario en cada fase del torneo. Esta colaboración destacada no solo resaltó la capacidad técnica del equipo, sino también la importancia del liderazgo cohesionado en el camino hacia el campeonato.",
                         "El Managua FC Sub 15 se destacó no solo por su victoria general, sino también por el rendimiento excepcional de sus jugadores. Contando con el goleador del torneo, extremos hábiles, defensas tenaces y mediocampistas creativos, el equipo exhibió una combinación única de talento individual y juego de equipo efectivo. Esta diversidad de habilidades contribuyó a la solidez y versatilidad del equipo, creando una sinergia que fue clave en su triunfo.",
                         "El impacto del Managua FC no se limitó al ámbito local, ya que varios de sus jugadores tuvieron la oportunidad de avanzar en sus carreras. Desde integrarse al equipo juvenil de la capital hasta dar el salto a la primera división, e incluso siendo convocados a la selección nacional, estos jóvenes futbolistas continuaron su ascenso en el panorama del fútbol nicaragüense, subrayando el papel del Managua FC Sub 15 como cantera de talento y vivero de futuras estrellas."
                     ],
@@ -260,11 +255,6 @@
                             "img": "/Team/Brandoll Espinoza.jpg"
                         },
                         {
-                            "nombre": "Keler Aguilar",
-                            "cargo": "Psicólogo",
-                            "img": "/Team/Keler Aguilar.jpg"
-                        },
-                        {
                             "nombre": "Olmer Abraham",
                             "cargo": "Soporte",
                             "img": "/Team/Olmer Abraham.jpg"
@@ -284,7 +274,7 @@
                     "descripcion": [
                         "En el año 2021, el Managua FC Sub 17 alcanzó la cima de la excelencia al proclamarse campeón de la Copa Sandino, el prestigioso campeonato a nivel nacional en Nicaragua. Este triunfo marcó el primer torneo de Francisco Meléndez con esta categoría, consolidando su reputación como un estratega exitoso. Su designación para liderar este equipo fue el resultado de sus destacadas actuaciones en torneos anteriores, donde obtuvo resultados sobresalientes. La junta directiva del Managua reconoció el deseo de obtener el preciado trofeo en la categoría Sub 17, y bajo la dirección de Meléndez, el equipo logró alcanzar la cima.",
                         "En una emocionante final contra el Real Estelí, el Managua FC Sub 17 demostró su calidad al vencer con un marcador de 2-1 en la ida (en la casa del Estelí) y 3-1 en la vuelta (en la casa del Managua). Con un resultado global de 5-2 a su favor, el equipo se consagró como campeón del torneo a nivel nacional, derrocando al campeón del torneo anterior.",
-                        "El cuerpo técnico, compuesto por Dixi Lopez, Elieth Centeno, Marvin Cruz, Jairo Gutiérrez, Brandoll Espinoza, Olmer Abraham, Keler Aguilar y Victor Tseng, desempeñaron un papel crucial en el éxito del equipo, brindando apoyo y dirección estratégica en cada paso del camino. La colaboración entre Meléndez y su equipo técnico contribuyó no solo a los resultados positivos sino también al desarrollo integral de los jugadores.",
+                        "El cuerpo técnico, compuesto por Dixi Lopez, Elieth Centeno, Marvin Cruz, Jairo Gutiérrez, Brandoll Espinoza, Olmer Abraham y Victor Tseng, desempeñaron un papel crucial en el éxito del equipo, brindando apoyo y dirección estratégica en cada paso del camino. La colaboración entre Meléndez y su equipo técnico contribuyó no solo a los resultados positivos sino también al desarrollo integral de los jugadores.",
                         "El Managua FC Sub 17 se destacó por la calidad y diversidad de su plantilla, con el máximo goleador del torneo, un centro del campo lleno de garra, defensas fuertes y comprometidas, bandas con un gran potencial y una delantera letal. Esta combinación de habilidades individuales y cohesión grupal fue esencial para superar los desafíos y alcanzar el título deseado.",
                         "El impacto del éxito del Managua FC no solo se reflejó en la conquista del título, sino también en las oportunidades que brindó a sus jugadores. Desde integrarse al equipo juvenil de la capital hasta ascender a la primera división y recibir convocatorias a la selección nacional, estos jóvenes talentos continuaron su ascenso en el fútbol nicaragüense, respaldados por la sólida base establecida por el Managua FC Sub 17."
                     ],
@@ -346,11 +336,6 @@
                             "nombre": "Olmer Abraham",
                             "cargo": "Soporte",
                             "img": "/Team/Olmer Abraham.jpg"
-                        },
-                        {
-                            "nombre": "Keler Aguilar",
-                            "cargo": "Psicólogo",
-                            "img": "/Team/Keler Aguilar.jpg"
                         }
                     ]
                 },
@@ -524,7 +509,7 @@
                         },
                         {
                             "nombre": "Keler Aguilar",
-                            "cargo": "Psicologo",
+                            "cargo": "Psicólogo",
                             "img": "/Team/Keler Aguilar.jpg"
                         },
                         {
@@ -551,8 +536,8 @@
                 "team": "Claro Nacional",
                 "temporada": "2018",
                 "descripcion": [
-                    "En el año 2023, la academia de Valores Alma escribió una página dorada en su historia al coronarse campeón de la Copa Claro Nicaragua. Este logro significativo no solo destacó el talento y la destreza del equipo, sino también la estrategia de Francisco Meléndez, quien asumió el rol de entrenador y guió a Valores Alma hacia el campeonato.",
-                    "Francisco Meléndez lideró con maestría al equipo de Valores Alma, llevándolos al éxito con el título de la Copa Claro Nicaragua. Este logro no solo tuvo repercusiones a nivel nacional, sino que también abrió las puertas para la representación de Nicaragua en el ámbito internacional. En el mismo año, el equipo tuvo la oportunidad de participar en un torneo internacional en Guatemala, demostrando su calidad y compromiso en la escena internacional.",
+                    "En el año 2018, la academia de Valores Alma escribió una página dorada en su historia al coronarse campeón de la Copa Claro Nicaragua. Este logro significativo no solo destacó el talento y la destreza del equipo, sino también la estrategia del cuerpo técnico. Francisco asumió el rol de asistente técnico de Humberto Guillen y guio a Valores Alma hacia el campeonato.",
+                    "Francisco Meléndez ayudo con maestría al equipo de Valores Alma, llevándolos al éxito con el título de la Copa Claro Nicaragua. Este logro no solo tuvo repercusiones a nivel nacional, sino que también abrió las puertas para la representación de Nicaragua en el ámbito internacional. En el mismo año, el equipo tuvo la oportunidad de participar en un torneo internacional en Guatemala, demostrando su calidad y compromiso en la escena internacional.",
                     "El cuerpo técnico, compuesto por Dixi Lopez, Elieth Centeno, Marvin Cruz y Humberto Guillen, desempeñó un papel fundamental en el respaldo al equipo. Su colaboración fue esencial para mantener un ambiente positivo y estratégico, contribuyendo al desarrollo integral de los jugadores y al éxito colectivo del equipo.",
                     "Valores Alma no solo se destacó por su éxito en torneos nacionales e internacionales, sino también por su labor en la formación de talento. La cantera ubicada en el Luis Alfonso ha sido una fuente constante de jóvenes talentosos, muchos de los cuales han pasado a representar al equipo en diversas categorías, desde sub-13 hasta sub-17, y algunos incluso han dado el salto al equipo principal del Managua FC."
                 ],
@@ -587,7 +572,7 @@
                 "support": [
                     {
                         "nombre": "Humberto Guillen",
-                        "cargo": "Asistente técnico",
+                        "cargo": "Técnico",
                         "img": "/Team/Humberto Guillen.jpg"
                     },
                     {
@@ -616,9 +601,9 @@
                 "team": "Claro Internacional",
                 "temporada": "2018",
                 "descripcion": [
-                    "En el año 2023, Valores Alma se destacó internacionalmente al alcanzar la posición de subcampeón en la Copa Claro Internacional, celebrada en Guatemala. Francisco Meléndez, en su papel de director técnico, lideró al equipo a representar con orgullo a Nicaragua en este torneo internacional. La culminación de este evento deportivo tuvo lugar en una emocionante final de la categoría sub-13, donde los representantes de Nicaragua se enfrentaron a Costa Rica. Aunque el marcador favoreció a los ticos con un ajustado 1-0, la actuación destacada de Nicaragua dejó una marca imborrable, superando a equipos como Honduras y El Salvador en el camino hacia la final.",
-                    "El papel crucial de Francisco Meléndez no estuvo solo en la táctica y estrategia, sino también en la formación de un equipo disciplinado y competitivo. Valores Alma, bajo su dirección, no solo destacó por sus habilidades técnicas, sino también por su espíritu de lucha y determinación, características que llevaron al equipo hasta la última etapa del torneo internacional.",
-                    "El cuerpo técnico, compuesto por Dixi Lopez, Elieth Centeno y Marvin Cruz, desempeñó un papel fundamental al respaldar al equipo desde Nicaragua, brindando orientación y apoyo constante. Humberto Guillen, asistente técnico que acompañó a Francisco Meléndez, fue una figura en el proceso para lograr esta hazaña, contribuyendo a la apoyo y mejorando el rendimiento del equipo durante el torneo internacional.",
+                    "En el año 2018, Valores Alma se destacó internacionalmente al alcanzar la posición de subcampeón en la Copa Claro Internacional, celebrada en Guatemala. Francisco Meléndez, en su papel de asistente técnico de Humberto Guillen, lideró al equipo a representar con orgullo a Nicaragua en este torneo internacional. La culminación de este evento deportivo tuvo lugar en una emocionante final de la categoría sub-13, donde los representantes de Nicaragua se enfrentaron a Costa Rica. Aunque el marcador favoreció a los ticos con un ajustado 1-0, la actuación destacada de Nicaragua dejó una marca imborrable, superando a equipos como Honduras y El Salvador en el camino hacia la final.",
+                    "El papel crucial del cuerpo técnico no estuvo solo en la táctica y estrategia, sino también en la formación de un equipo disciplinado y competitivo. Valores Alma, bajo su dirección, no solo destacó por sus habilidades técnicas, sino también por su espíritu de lucha y determinación, características que llevaron al equipo hasta la última etapa del torneo internacional.",
+                    "El cuerpo técnico, compuesto por Dixi Lopez, Elieth Centeno y Marvin Cruz, desempeñó un papel fundamental al respaldar al equipo desde Nicaragua, brindando orientación y apoyo constante. Humberto Guillen fue el técnico del equipo siendo una gran figura en el proceso para lograr esta hazaña, contribuyendo a la apoyo y mejorando el rendimiento del equipo durante el torneo internacional.",
                     "A pesar de la derrota en la final, la destacada actuación de Valores Alma en la Copa Claro Internacional no solo resaltó el talento futbolístico de Nicaragua, sino también la capacidad del equipo para competir a nivel internacional. Este logro subrayó la importancia del trabajo en equipo, la dirección técnica de calidad y el continuo desarrollo del fútbol juvenil en Nicaragua, consolidando la posición de Valores Alma como una cantera de talento en ascenso."
                 ],
                 "background": "/Copa Claro/Internacional/background.jpg",
