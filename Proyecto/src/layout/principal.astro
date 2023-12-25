@@ -26,6 +26,7 @@ const { name, seccion, marg } = Astro.props;
       rel="stylesheet"
     />
 
+
     <!-- Swiper -->
     <link
       rel="stylesheet"
@@ -33,6 +34,15 @@ const { name, seccion, marg } = Astro.props;
     />
 
     <link rel="icon" type="image/svg+xml" href="/Proyecto/Logo.ico" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TRDWVCDCYD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-TRDWVCDCYD');
+    </script>
 
     <title>{name}</title>
   </head>
