@@ -481,16 +481,15 @@
             },
             "juvenil": {
                 "2023": {
-                    "team": "Managua Juvenil U20",
+                    "team": "Managua U20",
                     "temporada": "2023",
                     "descripcion": [
-                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-                        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged."
+                        "En el inesperado y exitoso año de 2023, la juvenil del Managua FC logró conquistar el título en la categoría Sub-20 de Nicaragua, marcando un logro altamente profesional para la institución. En años anteriores, el debut de Francisco Meléndez como entrenador resultó ser un ascenso sorprendente para la institución, gracias a su destacado desempeño en las categorías inferiores. Esta brillante trayectoria lo llevó a ser designado asistente técnico del experimentado estratega Emilio Aburto, creando una gran química entre los dos, logrando hacer un equipo con talento y de mucho corazón.",
+                        "La victoria en el torneo no solo fue mérito de Meléndez y Aburto, sino también del esfuerzo conjunto con figuras clave como Keler Aguilar, Lopez Orlando, Jessimey Davila y Bryan Lopez. La final épica contra el octacampeón del torneo el Real Estelí, que venía en una racha impresionante, fue un momento clave donde el Managua detuvo su dominio, ganando la final con un marcador global de 3-2 y consagrándose como campeones de la categoría.",
+                        "El equipo obtuvo muchos logros, como tener al máximo goleador, ser el equipo más ofensivo y defensivo del torneo. Además de eso, también generó oportunidades a nivel nacional. Las convocatorias a microciclos de la selección de Nicaragua y al equipo de primera división del Managua FC subrayan el enfoque profundamente profesional de este talentoso equipo juvenil."
                     ],
-                    "background": "/Managua FC/Juvenil/2023/background.jpg",
-                    "resultado": "Lorem Ipsum",
+                    "background": "/Managua FC/Juvenil/2023/background2.jpg",
+                    "resultado": "Campeón",
                     "galeria": [
                         {
                             "img": "/Managua FC/Juvenil/2023/1.jpg"
@@ -519,14 +518,29 @@
                     ],
                     "support": [
                         {
-                            "nombre": "Jairo Gutierrez",
-                            "cargo": "Entrenador de Porteros",
-                            "img": "/Team/Jairo Guitierrez.jpg"
+                            "nombre": "Emilio Aburto",
+                            "cargo": "Técnico",
+                            "img": "/Team/Emilio Aburto.jpg"
                         },
                         {
                             "nombre": "Keler Aguilar",
-                            "cargo": "Psicólogo",
+                            "cargo": "Psicologo",
                             "img": "/Team/Keler Aguilar.jpg"
+                        },
+                        {
+                            "nombre": "Lopez Orlando",
+                            "cargo": "Soporte",
+                            "img": "/Team/Lopez Orlando.jpg"
+                        },
+                        {
+                            "nombre": "Jessimey Davila",
+                            "cargo": "Doctora",
+                            "img": "/Team/Jessimey Davila.jpg"
+                        },
+                        {
+                            "nombre": "Bryan Lopez",
+                            "cargo": "Entrenador de Porteros",
+                            "img": "/Team/Bryan Lopez.jpg"
                         }
                     ]
                 }

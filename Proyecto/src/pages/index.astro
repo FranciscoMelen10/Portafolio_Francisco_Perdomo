@@ -30,7 +30,7 @@ import CounterSkills from "../components/counter_skills.astro";
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <ViewTransitions/>
+    <ViewTransitions />
 
     <link rel="icon" type="image/svg+xml" href="/Proyecto/Logo.ico" />
 
@@ -39,7 +39,7 @@ import CounterSkills from "../components/counter_skills.astro";
   <body>
     <main>
       <div class="contenedor_principal_menu">
-        <Header seleccion={1} astro:page-load/>
+        <Header seleccion={1} astro:page-load />
         <aside class="contenedor_menu">
           <section>
             <h1 class="title">Francisco Melendez</h1>
@@ -80,7 +80,6 @@ import CounterSkills from "../components/counter_skills.astro";
     <script
       src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"
     ></script>
-
 
     <style>
       * {
@@ -146,7 +145,7 @@ import CounterSkills from "../components/counter_skills.astro";
       }
 
       .contenedor_menu .title {
-        font-size: 90px;
+        font-size: 75px;
         font-family: "Koulen", sans-serif;
         margin: auto;
         line-height: 0.9;
@@ -235,7 +234,7 @@ import CounterSkills from "../components/counter_skills.astro";
         margin-top: 20px;
       }
 
-      @media screen and (max-width: 1050px) {
+      @media screen and (max-width: 1130px) {
         div {
           padding: 30px 30px 0 30px;
         }
@@ -252,7 +251,7 @@ import CounterSkills from "../components/counter_skills.astro";
 
         .contenedor_menu section {
           align-items: center;
-          margin: 40px 0;
+          margin: 20px 0;
         }
 
         .contenedor_menu .title {
@@ -288,6 +287,11 @@ import CounterSkills from "../components/counter_skills.astro";
       @media screen and (max-width: 740px) {
         .contenedor_menu .title {
           font-size: 60px;
+        }
+
+        .contenedor_menu img {
+          height: 100%;
+          width: 100%;
         }
 
         .contenedor_menu .descripcion {
