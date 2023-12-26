@@ -1,7 +1,7 @@
 
 # Portafolio de Francisco Perdomo
 
-Portafolio deportivo de fútbol para Francisco de Jeús Meléndez Perdomo, quien es el autor principal de la página. La intención de este portafolio es hacer un recopilatorio de todos lo logros que ha obtenido Francisco alrededor de su carrera futbolistica como entrenador en Nicaragua, obteniendo grandes logros a nivel nacional e internacional.
+Portafolio deportivo de fútbol para Francisco de Jeús Meléndez Perdomo, quien es el autor principal de la página. La intención de este portafolio es hacer un recopilatorio de todos los logros que ha obtenido Francisco alrededor de su carrera futbolistica como entrenador en Nicaragua, obteniendo grandes logros a nivel nacional e internacional.
 
 Esta iniciativa de proyecto fue organizado por [Renchi Frabelle](https://github.com/frabelle) y [Francisco Melendez](https://github.com/FranciscoMelen10), en donde uno se encargo en hacer el diseño de la página en Figma y la otra persona la programación del sitio web.
 
@@ -14,6 +14,8 @@ https://github.com/FranciscoMelen10/Portafoliocddddddd/assets/104796963/fe864a70
 https://github.com/FranciscoMelen10/Portafoliocddddddd/assets/104796963/5357f461-fef2-48e2-878a-2ee1027f84a0
 
 https://github.com/FranciscoMelen10/Portafoliocddddddd/assets/104796963/d505a313-9605-448e-817e-0a08f259d392
+
+## Tecnologías
 
 <div>
   <img src="https://astro.js.org/astro.png" alt="css3" width="100px" height="100px"/>
