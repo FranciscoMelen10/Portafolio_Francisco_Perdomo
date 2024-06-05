@@ -30,7 +30,7 @@ const { nombre, temporada, descripcion, url, fotos } = Astro.props;
   <aside class="aside_img">
     {
       fotos.map((info) => {
-        return <img src={info} />;
+        return <img src={info} loading="lazy"/>;
       })
     }
   </aside>
@@ -44,6 +44,7 @@ const { nombre, temporada, descripcion, url, fotos } = Astro.props;
     align-items: center;
     justify-content: center;
     margin: 40px 0;
+    max-width: 1360px;
   }
 
   .aside_descripcion {

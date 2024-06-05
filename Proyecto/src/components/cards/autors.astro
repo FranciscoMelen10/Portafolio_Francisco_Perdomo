@@ -22,7 +22,7 @@ const { autor } = Astro.props;
 
 <div>
   <section>
-    <img src={autor.img} alt="" class="profile" />
+    <img src={autor.img} alt={autor.name} class="profile"  loading="lazy"/>
     <aside>
       <article>
         <h4>{autor.cargo}</h4>

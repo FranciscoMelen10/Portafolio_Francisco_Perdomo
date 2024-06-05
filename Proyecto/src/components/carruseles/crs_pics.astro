@@ -18,7 +18,7 @@ const { fotos, effectHover } = Astro.props;
     fotos.map((info) => {
       return (
         <div class="card" id={effectHover ? "effectHover" : ""}>
-            <img src={info.img} ></img>
+            <img src={info.img}  loading="lazy"></img>
             {
               effectHover ? (<aside>
               <p class="title">{info.team} </p>
@@ -42,8 +42,8 @@ section {
 }
 
   img {
-    width: 100%; 
-    height: 100%;
+    width: 300px; 
+    height: 300px;
     transition: 0.5s;
     color: white;
     object-fit: cover;

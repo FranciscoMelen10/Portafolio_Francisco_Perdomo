@@ -38,7 +38,7 @@ const { data } = Astro.props;
 
 <Principal name={data.team + " - " + data.temporada} seccion={2} marg={true}>
   <div class="card">
-    <img src={data.background} />
+    <img src={data.background}  loading="lazy"/>
     <aside>
       <h1 class="title">
         {data.team + " - " + data.temporada}

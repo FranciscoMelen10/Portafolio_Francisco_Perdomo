@@ -9,7 +9,7 @@ import prinJSON from "../../JSON/principal.json";
         return (
           <div class="swiper-slide">
             <picture>
-              <img src={info.img} alt={`${info.title} Image`} />
+              <img src={info.img} alt={`${info.title} Image`}  loading="lazy"/>
             </picture>
             <p class="title">{info.title} </p>
             <p class="tipo">{info.tipo}</p>
@@ -62,9 +62,9 @@ import prinJSON from "../../JSON/principal.json";
     padding: 10px;
   }
 
-  .swiper-slide img {
-    width: 100%;
-    height: 100%;
+  img {
+    width: 80px;
+    height: 80px;
     object-fit: cover;
   }
 

@@ -61,7 +61,7 @@ import CounterSkills from "../components/counter_skills.astro";
               >Descargar CV</a
             >
           </section>
-          <img src="/Proyecto/Profile Pic.png" alt="Foto de ejemplo" />
+          <img src="/Proyecto/Profile Pic.png" alt="Foto de ejemplo" loading="lazy"/>
         </aside>
       </div>
       <div class="contenedor_historial">
@@ -82,7 +82,7 @@ import CounterSkills from "../components/counter_skills.astro";
         </section>
       </div>
 
-      <div>
+      <div class="contenedor_cursos">
         <Title titulo="Cursos completados" />
         <Carususel_cursos />
       </div>
@@ -119,6 +119,7 @@ import CounterSkills from "../components/counter_skills.astro";
         display: flex;
         align-items: center;
         flex-direction: column;
+        
       }
 
       /* Seccion Menu Principal */
@@ -129,6 +130,7 @@ import CounterSkills from "../components/counter_skills.astro";
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        max-height: 1000px;
       }
 
       .contenedor_menu {
@@ -140,6 +142,8 @@ import CounterSkills from "../components/counter_skills.astro";
         color: white;
         height: 100%;
         width: 100%;
+        max-width: 1500px;
+
       }
 
       .contenedor_menu section {
@@ -192,6 +196,8 @@ import CounterSkills from "../components/counter_skills.astro";
         font-size: 25px;
         color: #24437a;
         font-family: "Inter", sans-serif;
+        max-width: 1500px;
+
       }
 
       /* Seccion de cv */
@@ -200,6 +206,7 @@ import CounterSkills from "../components/counter_skills.astro";
         justify-content: space-between;
         flex-direction: row;
         justify-items: start;
+        max-width: 1500px;
       }
 
       /* Seccion de habilidades */
@@ -242,6 +249,10 @@ import CounterSkills from "../components/counter_skills.astro";
         font-size: 20px;
         color: #24437a;
         margin-top: 20px;
+      }
+
+      .contenedor_cursos{
+        max-width: 1500px;
       }
 
       @media screen and (max-width: 1130px) {
